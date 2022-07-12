@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header */
+
+header{
+    height: 100vh;
+}
+
+/* Nav */
+
+nav{
+    width: 100%;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+
+nav .logo{
+    width: 20%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+nav .logo img{
+    width: 150px;
+}
+
+nav .links{
+    width: 60%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+nav .links a:nth-child(5){
+    padding: 10px 15px;
+    background-color: cadetblue;
+    border: 3px solid black;
+    margin-top: -10px;
+}
+
+nav .links a:nth-child(5):hover{
+    color: black;
+}
+
+nav .links a{
+    list-style: none;
+    margin: 0 20px;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .links a:hover{
+    color: #ccc;
+}
+
+nav .social{
+    width: 20%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+nav .social i{
+    margin: 0 8px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner  .title{
+    width: 100%;
+    position: absolute;
+    z-index: 500;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin: 450px auto 0 auto
+}
+
+.slider-banner{
+    width: 100%;
+    display: flex;
+}
+
+.banner-slider{
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+    background-image: url('https://th.bing.com/th/id/R.3595a1644a9b9eb75649feb372b49d7c?rik=z%2fArf1OSEFz29w&riu=http%3a%2f%2fwww.viajejet.com%2fwp-content%2fviajes%2fpreparar-Enchilada.jpg&ehk=EvS5KKgfhuIVKGhpCquuBLCUhkzZVVXii1G48f96Iko%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter:brightness(0.6);
+}
+
+.banner-slider:nth-child(2){
+    background-image: url('https://th.bing.com/th/id/OIP.VlxM3BqGpHEQ4YfBwhJabwHaE8?pid=ImgDet&rs=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.banner-slider:nth-child(3){
+    background-image: url('https://th.bing.com/th/id/R.26d6b49f940297ecf19220ec95efaf00?rik=1y0gEVdG9W%2baSQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-86eSXA1-g9Q%2fUxT5z8SXSjI%2fAAAAAAAAACU%2fQnl_LqHYDJk%2fs1600%2f_DSC5214.jpg&ehk=AyLAaMR9X1o7xEL%2bExfRUyxutk5HscVSDWDExLfqvPk%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+h1{
+    font-family: Arial;
+    font-size: 3.5em;
+    font-weight: bold;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.b-contact{
+    color: #000;
+    background-color: #fff;
+    width: 150px;
+    display: block;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 0.9em;
+    margin: 20px auto 0 auto;
+    text-decoration: none;
+}
