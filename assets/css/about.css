@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    height: 100px;
+    height: auto;
 }
 
 /* Nav */
@@ -81,6 +81,98 @@ nav .social i{
     color: white;
     font-size: 1.3em;
     font-weight: bold;
+}
+
+/* Banner */
+
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner .title{
+    width: 100%;
+    position: absolute;
+    z-index: 500;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin: 15% auto 0 auto
+}
+
+.slider-banner{
+    width: 100%;
+    display: flex;
+}
+
+.banner-slider{
+    width: 100%;
+    height: 65vh;
+    flex-shrink: 0;
+    background-image: url('../img/contact.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter:brightness(0.6);
+}
+
+
+.title h1{
+    font-family: Arial;
+    font-size: 3.2em;
+    font-weight: bold;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.title p{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+/* Main */
+
+main{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+main > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 80px auto 30px auto;
+    align-items: center;
+}
+
+main > div .img{
+    width: 45%;
+}
+
+main > div .info{
+    width: 45%;
+}
+
+main > div .img img{
+    width: 100%;
+    box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.46);
+}
+
+main > div .info h2{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main > div .info p{
+    margin: 15px auto 15px 0;
+    font-family: Verdana;
+    font-size: 0.9em;
+    width: 90%;
 }
 
 /* Footer */

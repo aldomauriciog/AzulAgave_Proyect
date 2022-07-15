@@ -102,7 +102,7 @@ nav .social i{
     display:block;
     justify-content: center;
     align-items: center;
-    margin: 18% auto 0 auto
+    margin: 15% auto 0 auto
 }
 
 .slider-banner{
@@ -137,6 +137,7 @@ nav .social i{
     margin-top: 20px;
     font-size: 0.9em;
 }
+
 /* Main */
 
 main{
@@ -375,7 +376,6 @@ main:hover{
     text-decoration: none;
     background-color: #000;
     width: 30%;
-    font-size: 1.1;
     margin: 10px auto;
     z-index: 100;
 }
@@ -514,6 +514,7 @@ main:hover{
 /* Laptop */
 @media (max-width: 1366px){
 
+    /* Banner */
     .title h1{
         font-size: 2.8em;
     }
@@ -524,6 +525,26 @@ main:hover{
         margin-top: 20px;
         font-size: 1em;
     }
+
+    /* Quickk Access*/
+
+    .rapid-access > ul > li > table tr td a{
+        font-size: 0.8em;
+        padding: 15px 10px 15px 10px;
+    }
+
+    .rapid-access > ul li a {
+        font-size: 0.9em;
+    }
+
+    /* Menú */
+
+    .banner-m .title {
+        font-size: 0.8em;
+        top: 45px;
+    }
+
+    /* Footer */
 
     .f-contact h4, .f-booking h4, .f-social h4{
         font-size: 1.2em;
