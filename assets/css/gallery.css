@@ -201,39 +201,45 @@ main{
 }
 
 .details{
-    display: flex;
-    align-items: center;
-    padding: 12px 32px;
-    justify-content: space-between;
-    position: fixed;
+    display: none;
     width: 100%;
     height: 80px;
+    position: absolute;
     top: 0;
     left: 0;
-    opacity: 0;
+    background-color: black;
     z-index: 2002;
+
+}
+.details .display{
+    width: 100%;
+    height: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 12px 32px;
 }
 
 
-.details .icon{
+.details .display .icon{
     color: #fff;
     cursor: pointer;
     font-size: 40px;
 }
 
-.details .title{
+.details .display .title{
     display: flex;
     font-size: 18px;
     font-weight: 400;
     color: #fff;
 }
 
-.details .title p{
+.details .display .title p{
     margin: 0 5px;
     color: #fff;
 }
 
-.details .title p.current-img{
+.details .display .title p.current-img{
     font-weight: 500;
 }
 

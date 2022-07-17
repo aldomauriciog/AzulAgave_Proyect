@@ -58,7 +58,7 @@ window.onload = ()=>{
             preview();
             previewBox.classList.add("show");
             shadow.style.display = "block";
-            details.style.opacity = "1";
+            details.style.display = "block";
 
             closeIcon.onclick = ()=>{
                 newIndex = clickIngIndex;
@@ -66,7 +66,7 @@ window.onload = ()=>{
                 NextBtn.style.display = "block";
                 previewBox.classList.remove("show");
                 shadow.style.display = "none";
-                details.style.opacity = "0";
+                details.style.display = "none";
             }
         }
     }
