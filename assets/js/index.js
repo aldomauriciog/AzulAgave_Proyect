@@ -30,13 +30,15 @@ function slides(){
 $(document).ready(function(){
     $('a[href^="#"]').click(function(){
         var destiny = $(this.hash);
+        var altura = destiny.offset().top;
+        var oficial = altura - 100;
         if(destiny.length == 0){
             destiny = $('a[name="' + this.hash.substr(1) + '"]');
         }
         if(destiny.length == 0){
             destiny = $('html');
         }
-        $('html, body').animate({ scrollTop: destiny.offset().top }, 500);
+        $('html, body').animate({ scrollTop: oficial }, 500);
         return false;
     });
 });

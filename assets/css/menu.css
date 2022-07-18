@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
@@ -59,6 +55,7 @@ nav .links a:nth-child(5){
 
 nav .links a:nth-child(5):hover{
     color: white;
+    border-bottom: 0px solid transparent;
 }
 
 nav .links a{
@@ -68,10 +65,12 @@ nav .links a{
     font-size: 0.9em;
     text-decoration: none;
     font-weight: bold;
+    border-bottom: 0px solid transparent;
+    transition: border-bottom 0.3s;
 }
 
 nav .links a:hover{
-    color: #ccc;
+    border-bottom: 2px solid #fff;
 }
 
 nav .social{
@@ -350,13 +349,36 @@ main:hover{
     width: 98.5%;
     z-index: 95;
     transition: 0.3s;
+    position: relative;
+    overflow: hidden;
 }
 
-.rapid-access > ul > li > table tr td a:hover{
+.rapid-access > ul > li > table tr td a span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.rapid-access > ul > li > table tr td a.btn::after{
+    content: "";
+    width: 100%;
+    height: 300px;
     background-color: #2E2F30;
+    position: absolute;
+    z-index: 1;
+    top: -300px;
+    left: 0;
+    transition: .4s ease-in-out all;
+    border-radius: 0px 0px 300px 300px;
 }
 
-.rapid-access > ul li span{
+.rapid-access > ul > li > table tr td a.btn:hover::after{
+    top:0;
+}
+
+
+
+.rapid-access > ul li > span{
     position: absolute;
     width: 100%;
     line-height: 20px;
@@ -379,6 +401,7 @@ main:hover{
     margin: 10px auto;
     z-index: 100;
 }
+
 
 /* Menu */
 
@@ -410,9 +433,12 @@ main:hover{
     background-image: url('../img/soups.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    filter:brightness(0.6);
+    background-attachment: scroll;
+    background-position: center;
+    filter:brightness(0.5);
 }
+
+
 
 .banner-m .title{
     width: 100%;
