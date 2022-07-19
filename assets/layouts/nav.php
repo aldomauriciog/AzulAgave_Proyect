@@ -3,6 +3,7 @@
         <a href="../index.html"><img src="../assets/img/LOGO VERSION BLANCO.png" alt=""></a>
     </div>
     <div class="links">
+        <a href="../index.html"><li>HOME</li></a>
         <a href="../menu/"><li>MENU</li></a>
         <a href="../gallery/"><li>GALLERY</li></a>
         <a href="../about/"><li>ABOUT</li></a>
