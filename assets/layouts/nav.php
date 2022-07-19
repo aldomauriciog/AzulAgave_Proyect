@@ -1,6 +1,6 @@
 <nav>
     <div class="logo">
-        <a href="index.html"><img src="../assets/img/LOGO VERSION BLANCO.png" alt=""></a>
+        <a href="../index.html"><img src="../assets/img/LOGO VERSION BLANCO.png" alt=""></a>
     </div>
     <div class="links">
         <a href="../menu/"><li>MENU</li></a>
