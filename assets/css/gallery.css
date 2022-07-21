@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     position: relative;
     min-height: 100vh;
     padding-bottom: 300px;
@@ -39,7 +41,7 @@ header{
 
 .banner-slider{
     width: 100%;
-    height: 65vh;
+    height: 55vh;
     flex-shrink: 0;
     background-image: url('../img/contact.jfif');
     background-size: cover;
@@ -50,19 +52,20 @@ header{
 
 
 .title h1{
-    font-family: Arial;
+    font-family: 'Poppins', sans-serif;
     font-size: 3.2em;
     font-weight: bold;
     line-height: 30px;
     color: #fff;
     text-align: center;
+    text-shadow: 2px 1px 1px #ECECEC;
 }
 
 .title p{
     text-align: center;
     color: #fff;
-    margin-top: 20px;
-    font-size: 0.9em;
+    margin-top: 30px;
+    font-size: 1.1em;
 }
 
 /* Gallery */
@@ -73,7 +76,7 @@ main{
     justify-content: center;
     min-height: 100vh;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .wrapper{
@@ -113,7 +116,7 @@ main{
 
 .preview-box{
     position: fixed;
-    max-width: 500px;
+    max-width: 550px;
     width: 80%;
     max-height: 80vh;
     top: 50%;
@@ -155,9 +158,13 @@ main{
 
 
 .details .display .icon{
-    color: #fff;
+    color: rgba(255, 255, 255, 0.7);
     cursor: pointer;
     font-size: 40px;
+}
+
+.details .display .icon:hover{
+    color: #fff;
 }
 
 .details .display .title{
@@ -174,6 +181,12 @@ main{
 
 .details .display .title p.current-img{
     font-weight: 500;
+    font-size: 18px;
+}
+
+.details .display .title p.total-img{
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .preview-box .img-box{
@@ -187,7 +200,7 @@ main{
     transform: translateY(-50%);
     font-size: 30px;
     cursor: pointer;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.7);
     width: 60px;
     height: 50px;
     line-height: 50px;
@@ -198,8 +211,24 @@ main{
     left: -12%;
 }
 
+.img-box .slide.prev:hover{
+    color: #fff;
+}
+
+.img-box .slide.prev i{
+    font-size: 1.2em;
+}
+
 .img-box .slide.next{
     right: -12%;
+}
+
+.img-box .slide.next:hover{
+    color: #fff;
+}
+
+.img-box .slide.next i{
+    font-size: 1.2em;
 }
 
 .preview-box .img-box img{
@@ -217,130 +246,6 @@ main{
     display: none;
     background-color: rgba(0,0,0,1);
     z-index: 1999;
-}
-
-
-/* Footer */
-
-footer{
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-.footer{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(40, 108, 111);
-    color: white;
-    height: 200px;
-}
-
-.copy{
-    background-color: rgb(23, 62, 65);
-    height: 50px;
-    text-align: center;
-    color: white;
-    padding-top: 16px;
-}
-
-.f-info{
-    width: 22%;
-    text-align: center;
-    padding: 25px 15px 25px 15px;
-}
-
-.f-info img{
-    width: 100px;
-    margin-top: -10px;
-}
-
-.f-info p{
-    margin-top: 0px;
-    width: 80%;
-    margin: -10px auto 0px auto;
-    color: white;
-}
-
-.f-contact{
-    width: 22%;
-    padding: 25px 15px 25px 15px;
-    text-align: center;
-}
-
-.f-contact h4{
-    font-size: 1.4em;
-    padding-bottom: 10px;
-    border-bottom: 0.1px solid white;
-    width: 40%;
-    margin: 0px auto 26px auto;
-}
-.f-contact p, .f-contact a{
-    color: white;
-    text-align: center;
-}
-
-.f-contact p{
-    margin-top: 10px;
-}
-
-.f-contact a{
-    color: white;
-    text-decoration: none;
-}
-
-.f-contact span{
-    color: white;
-    font-size: 0.9em;
-}
-
-.f-booking{
-    width: 22%;
-    padding: 25px 15px 25px 15px;
-    text-align: center;
-}
-
-.f-booking h4{
-    font-size: 1.4em;
-    padding-bottom: 10px;
-    border-bottom: 0.1px solid white;
-    width: 40%;
-    margin: 0px auto 26px auto;
-}
-
-.f-booking p, .f-booking a{
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.f-booking a{
-    color: white;
-    text-decoration: none;
-}
-
-.f-social{
-    width: 22%;
-    padding: 25px 15px 25px 15px;
-    text-align: center;
-}
-
-.f-social h4{
-    font-size: 1.4em;
-    padding-bottom: 10px;
-    border-bottom: 0.1px solid #ccc;
-    width: 40%;
-    margin: 0 auto;
-}
-
-.f-social a{
-    color: white;
-    font-size: 1.7em;
-    padding: 10px
-}
-
-.f-social a i{
-    margin-top: 13%;
 }
 
 /* Laptop */

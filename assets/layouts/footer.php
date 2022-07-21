@@ -12,7 +12,7 @@
                 <span>2576 Route 9W Cornwall, NY</span>
         </div>
         <div class="f-booking">
-            <h4>Bookings</h4>
+            <h4>Booking</h4>
             <p>Reserve Outdoor Seating:</p>
             <a href="tel: 845-534-2006">845-534-2006</a>
             <p>Pick up order</p>
@@ -20,8 +20,10 @@
         </div>
         <div class="f-social">
             <h4>Follow Us</h4>
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <div>
+                <a href="https://www.facebook.com/AzulAgaveCornwall/" target="_blank"><i class="fa-brands fa-facebook-f"></i><span>@AzulAgaveCornwall</span></a>
+                <a href="https://www.instagram.com/azulagavecornwall/" target="_blank"><i class="fa-brands fa-instagram"></i><span>@azulagavecornwall</span></a>
+            </div>
         </div>
     </div>
     <div class="copy">

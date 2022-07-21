@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +8,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     position: relative;
     min-height: 100vh;
     padding-bottom: 300px;
@@ -45,6 +48,7 @@ nav .links{
     width: 60%;
     display: inline-flex;
     justify-content: center;
+    align-items: center;
 }
 
 nav .links a:nth-child(6){
@@ -52,7 +56,6 @@ nav .links a:nth-child(6){
     background-color: cadetblue;
     box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.39);
     margin-top: -10px;
-    
 }
 
 nav .links a:nth-child(6):hover{
@@ -62,7 +65,7 @@ nav .links a:nth-child(6):hover{
 
 nav .links a{
     list-style: none;
-    margin: 0 20px;
+    margin: 0 25px;
     color: white;
     font-size: 0.9em;
     text-decoration: none;
@@ -139,7 +142,7 @@ nav .social i{
 
 
 .title h1{
-    font-family: Arial;
+    font-family: 'Poppins', sans-serif;
     font-size: 3.2em;
     font-weight: bold;
     line-height: 30px;
@@ -333,7 +336,7 @@ section{
 
 .contact-bg{
     width: 100%;
-    height: 650px;
+    height: 750px;
     flex-shrink: 0;
     background-image: url('../img/contact.jfif');
     background-size: cover;
@@ -381,7 +384,8 @@ footer{
     justify-content: space-evenly;
     background-color: rgb(40, 108, 111);
     color: white;
-    height: 200px;
+    height: 230px;
+    font-size: 0.9em;
 }
 
 .copy{
@@ -390,6 +394,7 @@ footer{
     text-align: center;
     color: white;
     padding-top: 16px;
+    font-size: 0.9em;
 }
 
 .f-info{
@@ -404,7 +409,6 @@ footer{
 }
 
 .f-info p{
-    margin-top: 0px;
     width: 80%;
     margin: -10px auto 0px auto;
     color: white;
@@ -417,7 +421,7 @@ footer{
 }
 
 .f-contact h4{
-    font-size: 1.4em;
+    font-size: 1.3em;
     padding-bottom: 10px;
     border-bottom: 0.1px solid white;
     width: 40%;
@@ -437,9 +441,12 @@ footer{
     text-decoration: none;
 }
 
+.f-contact a:hover{
+    color: gainsboro;
+}
+
 .f-contact span{
     color: white;
-    font-size: 0.9em;
 }
 
 .f-booking{
@@ -449,7 +456,7 @@ footer{
 }
 
 .f-booking h4{
-    font-size: 1.4em;
+    font-size: 1.3em;
     padding-bottom: 10px;
     border-bottom: 0.1px solid white;
     width: 40%;
@@ -474,21 +481,40 @@ footer{
 }
 
 .f-social h4{
-    font-size: 1.4em;
+    font-size: 1.3em;
     padding-bottom: 10px;
     border-bottom: 0.1px solid #ccc;
     width: 40%;
     margin: 0 auto;
 }
 
+.f-social > div{
+    display: grid;
+    margin-top: 35px;
+}
+
 .f-social a{
+    width: 100%;
     color: white;
     font-size: 1.7em;
-    padding: 10px
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+    text-decoration: none;
 }
 
 .f-social a i{
-    margin-top: 13%;
+    font-size: 0.9em;
+}
+
+.f-social a span{
+    font-size: 0.6em;
+    margin-left: 10px;
+}
+
+.f-social a span:hover{
+    color: gainsboro;
 }
 
 

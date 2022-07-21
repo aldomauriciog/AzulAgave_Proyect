@@ -11,7 +11,8 @@ footer{
     justify-content: space-evenly;
     background-color: rgb(40, 108, 111);
     color: white;
-    height: 200px;
+    height: 230px;
+    font-size: 0.9em;
 }
 
 .copy{
@@ -20,6 +21,7 @@ footer{
     text-align: center;
     color: white;
     padding-top: 16px;
+    font-size: 0.9em;
 }
 
 .f-info{
@@ -34,7 +36,6 @@ footer{
 }
 
 .f-info p{
-    margin-top: 0px;
     width: 80%;
     margin: -10px auto 0px auto;
     color: white;
@@ -47,7 +48,7 @@ footer{
 }
 
 .f-contact h4{
-    font-size: 1.4em;
+    font-size: 1.3em;
     padding-bottom: 10px;
     border-bottom: 0.1px solid white;
     width: 40%;
@@ -67,9 +68,12 @@ footer{
     text-decoration: none;
 }
 
+.f-contact a:hover{
+    color: gainsboro;
+}
+
 .f-contact span{
     color: white;
-    font-size: 0.9em;
 }
 
 .f-booking{
@@ -79,7 +83,7 @@ footer{
 }
 
 .f-booking h4{
-    font-size: 1.4em;
+    font-size: 1.3em;
     padding-bottom: 10px;
     border-bottom: 0.1px solid white;
     width: 40%;
@@ -104,19 +108,38 @@ footer{
 }
 
 .f-social h4{
-    font-size: 1.4em;
+    font-size: 1.3em;
     padding-bottom: 10px;
     border-bottom: 0.1px solid #ccc;
     width: 40%;
     margin: 0 auto;
 }
 
+.f-social > div{
+    display: grid;
+    margin-top: 35px;
+}
+
 .f-social a{
+    width: 100%;
     color: white;
     font-size: 1.7em;
-    padding: 10px
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.f-social a span:hover{
+    color: gainsboro;
 }
 
 .f-social a i{
-    margin-top: 13%;
+    font-size: 0.9em;
+}
+
+.f-social a span{
+    font-size: 0.6em;
+    margin-left: 10px;
 }

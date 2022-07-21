@@ -8,7 +8,7 @@
         <a href="../gallery/"><li>GALLERY</li></a>
         <a href="../about/"><li>ABOUT</li></a>
         <a href="../index.html#contact-link"><li>CONTACT</li></a>
-        <a href="../booking/"><li>BOOKINGS</li></a>
+        <a href="../booking/"><li>BOOKING</li></a>
     </div>
     <div class="social">
         <a href="https://www.facebook.com/AzulAgaveCornwall/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>

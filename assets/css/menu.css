@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     position: relative;
     min-height: 100vh;
     padding-bottom: 300px;
@@ -39,7 +41,7 @@ header{
 
 .banner-slider{
     width: 100%;
-    height: 65vh;
+    height: 55vh;
     flex-shrink: 0;
     background-image: url('../img/contact.jfif');
     background-size: cover;
@@ -50,19 +52,20 @@ header{
 
 
 .title h1{
-    font-family: Arial;
+    font-family: 'Poppins', sans-serif;;
     font-size: 3.2em;
     font-weight: bold;
     line-height: 30px;
     color: #fff;
     text-align: center;
+    text-shadow: 2px 1px 1px #ECECEC;
 }
 
 .title p{
     text-align: center;
     color: #fff;
-    margin-top: 20px;
-    font-size: 0.9em;
+    margin-top: 30px;
+    font-size: 1.1em;
 }
 
 /* Main */
@@ -150,7 +153,7 @@ main:hover{
     padding: 20px 10px 20px 10px;
     background-color: gray;
     margin: 2px 0px;
-    font-weight: 100;
+    font-weight: 200;
     width: 98.5%;
     z-index: 95;
     transition: 0.3s;
@@ -168,20 +171,18 @@ main:hover{
     content: "";
     width: 100%;
     height: 300px;
-    background-color: #2E2F30;
+    background-color: #595a5a;
     position: absolute;
     z-index: 1;
-    top: -300px;
-    left: 0;
-    transition: .4s ease-in-out all;
-    border-radius: 0px 0px 300px 300px;
+    top: 0;
+    left: -100%;
+    transition: .5s ease-in-out all;
+    /* border-radius: 0px 0px 300px 300px; */
 }
 
 .rapid-access > ul > li > table tr td a.btn:hover::after{
-    top:0;
+    left:0;
 }
-
-
 
 .rapid-access > ul li > span{
     position: absolute;

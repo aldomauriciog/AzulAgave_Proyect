@@ -96,10 +96,10 @@
         <div class="preview-box">
             <div class="img-box">
                 <div class="slide prev">
-                    <i class="fas fa-angle-left"></i>
+                    <i class="fa-solid fa-circle-chevron-left"></i>
                 </div>
                 <div class="slide next">
-                    <i class="fas fa-angle-right"></i>
+                    <i class="fa-solid fa-circle-chevron-right"></i>
                 </div>
                 <img src="" alt="">
             </div> 
@@ -110,7 +110,7 @@
                     Imagen <p class="current-img"></p>
                     de <p class="total-img"></p>
                 </span>
-                <span class="icon fas fa-times"></span>
+                <span class="icon fa-solid fa-circle-xmark"></span>
             </div>
         </div>
         <div class="shadow">
