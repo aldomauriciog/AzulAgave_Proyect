@@ -26,10 +26,10 @@
     <main>
         <div class="wrapper">
             <div class="gallery">
-                <div class="image"><span><img src="../assets/img/gallery/img1.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img2.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img3.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img4.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img1.jpg" alt=""><p>Fajitas</p></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img2.jpg" alt=""><p>Burritos</p></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img3.jpg" alt=""><p>Arroz</p></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img4.jpg" alt=""><p>Salads</p></span></div>
                 <div class="image"><span><img src="../assets/img/gallery/img5.jpg" alt=""></span></div>
                 <div class="image"><span><img src="../assets/img/gallery/img6.jpg" alt=""></span></div>
                 <div class="image"><span><img src="../assets/img/gallery/img7.jpg" alt=""></span></div>
@@ -102,6 +102,7 @@
                     <i class="fa-solid fa-circle-chevron-right"></i>
                 </div>
                 <img src="" alt="">
+                <p></p>
             </div> 
         </div>
         <div class="details">

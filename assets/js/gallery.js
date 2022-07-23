@@ -1,6 +1,7 @@
 const gallery = document.querySelectorAll(".gallery .image"),
 previewBox = document.querySelector(".preview-box"),
 previewImg = previewBox.querySelector("img"),
+previewInfo = previewBox.querySelector("p"),
 closeIcon = document.querySelector(".icon"),
 currentImg = document.querySelector(".current-img"),
 totalImg = document.querySelector(".total-img"),
@@ -18,7 +19,11 @@ window.onload = ()=>{
             function preview(){
                 currentImg.textContent = newIndex + 1;
                 let selectImgUrl = gallery[newIndex].querySelector("img").src;
+                let selectImgInfo = gallery[newIndex].querySelector("p").innerHTML;
                 previewImg.src = selectImgUrl;
+                previewInfo.innerHTML = selectImgInfo;
+                console.log(selectImgUrl);
+                console.log(selectImgInfo);
             }
 
             const prevBtn = document.querySelector(".prev");
