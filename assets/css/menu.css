@@ -334,6 +334,10 @@ main:hover{
     margin-bottom: 4px;
 }
 
+.d-l-detail div p:last-child{
+    font-weight: bold;
+}
+
 .appetizers, .soups, .salad, .sides, .sizzling, .vegetarianos, .entrees, .combinaciones, .specials, .seafood, .burgers, .kids, .desserts, .beverages{
     /* margin-bottom: 50px; */
     width: 100%;
