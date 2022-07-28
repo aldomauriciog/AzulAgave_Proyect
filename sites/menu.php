@@ -31,22 +31,22 @@
                 <li><a id="btn" href="#">QUICK ACCESS</a><span></span>
                     <table>
                         <tr class="row1">
-                            <td><a href="#appetizers" class="btn"><span>Appetizers</span></a></td>
-                            <td><a href="#soups" class="btn"><span>Soups</span></a></td>
-                            <td><a href="#salad" class="btn"><span>Salad</span></a></td>
+                            <td><a href="#beverages" class="btn"><span>Beverages</span></a></td>
+                            <td><a href="#salad" class="btn"><span>Salads</span></a></td>
+                            <td><a href="#burgers" class="btn"><span>Burgers</span></a></td>
                             <td><a href="#sides" class="btn"><span>Sides</span></a></td>
-                            <td><a href="#sizzling" class="btn"><span>Sizzling Fajitas</span></a></td>
-                            <td><a href="#vegetarianos" class="btn"><span>Platillos Vegetarianos</span></a></td>
-                            <td><a href="#entrees" class="btn"><span>Entrees</span></a></td>
+                            <td><a href="#vegetarianos" class="btn"><span>Vegetarian Special</span></a></td>
+                            <td><a href="#combinaciones" class="btn"><span>Special combinations</span></a></td>
+                            <td><a href="#soups" class="btn"><span>Soups</span></a></td>
                         </tr>
                         <tr class="row2">
-                            <td><a href="#combinaciones" class="btn"><span>Combinaciones</span></a></td>
+                            <td><a href="#entrees" class="btn"><span>Main Dishes</span></a></td>
                             <td><a href="#specials" class="btn"><span>Specials</span></a></td>
-                            <td><a href="#seafood" class="btn"><span>Seafood</span></a></td>
-                            <td><a href="#burgers" class="btn"><span>Burgers</span></a></td>
                             <td><a href="#kids" class="btn"><span>Kids Menu</span></a></td>
+                            <td><a href="#seafood" class="btn"><span>Seafood Specials</span></a></td>
                             <td><a href="#desserts" class="btn"><span>Desserts</span></a></td>
-                            <td><a href="#beverages" class="btn"><span>Beverages</span></a></td>
+                            <td><a href="#appetizers" class="btn"><span>Appetizers</span></a></td>                        
+                            <td><a href="#sizzling" class="btn"><span>Sizzling Fajitas</span></a></td>
                         </tr>
                     </table>
                 </li>
@@ -55,6 +55,326 @@
     </main>
     <br>
     <div class="menu">
+        <div id="beverages" class="beverages">
+            <div class="banner-m">
+                <div class="title">
+                    <h2>CHUPI HOUR PROMO</h2>
+                </div>
+                <div class="menu-banner">
+                    <section class="banner-menu"></section>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Wines</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <div>
+                            <div>
+                                <p>Moscato</p>
+                                <p>$8.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Pinot Grigio</p>
+                                <p>$7.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Chardonnay</p>
+                                <p>$7.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Sangria</p>
+                                <p>$7.00</p>
+                            </div>
+                            <div class="des">
+                                <p>- Half pitch</p>
+                                <p>$15.00</p>
+                            </div>
+                            <div class="des">
+                                <p>- Full pitch</p>
+                                <p>$28.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Merlot</p>
+                                <p>$7.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Cabertnet</p>
+                                <p>$7.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Pinot noir</p>
+                                <p>$7.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>3 culitos</p>
+                                <p>$7.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Malbec</p>
+                                <p>$7.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Cocktails</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <div>
+                            <div>
+                                <p>Pisco Sour</p>
+                                <p></p>
+                            </div>
+                            <div class="des">
+                                <p>- Limon, passion fruit</p>
+                                <p>$12.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Mojitos</p>
+                                <p>$7.00</p>
+                            </div>
+                            <div class="des">
+                                <p>- Limon, mango, passion fruit, coconut, strawberry</p>
+                                <p>$10.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Michelada</p>
+                                <p>$12.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Piña colada</p>
+                                <p>$12.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Blue long island</p>
+                                <p>$10.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Sex on the beach</p>
+                                <p>$10.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Laguna azul</p>
+                                <p>$10.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Blue hawaii</p>
+                                <p>$10.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>MARGARITAS</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Strawberry, peach, passion fruit, tamarindo, mango</p>
+                        <div>
+                            <div>
+                                <p>House Lime</p>
+                                <p>$8.00</p>
+                            </div>
+                            <div class="des">
+                                <p>- Half pitch</p>
+                                <p>$18.00</p>
+                            </div>
+                            <div class="des">
+                                <p>- Full pitch</p>
+                                <p>$33.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Flavored</p>
+                                <p>$9.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Top shelf</p>
+                                <p></p>
+                            </div>
+                            <div class="des">
+                                <p>- Half pitch</p>
+                                <p>$28.00</p>
+                            </div>
+                            <div class="des">
+                                <p>- Full pitch</p>
+                                <p>$36.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Iced Tea</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Lemonade</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Orange Juice</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Apple Juice</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Cranberry Juice</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Horchata</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Tamarindo</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Jamaica</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Jarritos</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Lime, Fruit punch, Tamarindo, Mandarin, Grapefruit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Mexican Coca Cola</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Fanta</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Sidral</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Sangria soda</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div id="appetizers" class="appetizers">
             <div class="banner-m">
@@ -194,7 +514,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
 
         <div id="soups" class="soups">
             <div class="banner-m">
@@ -225,12 +545,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
 
-        <!-- <div id="salad" class="salad">
+        <div id="salad" class="salad">
             <div class="banner-m">
                 <div class="title">
-                    <h2>SALAD</h2>
+                    <h2>SALADS</h2>
                 </div>
                 <div class="menu-banner">
                     <section class="banner-menu" style="background-image: url('../assets/img/gallery/img44.jpg');"></section>
@@ -240,19 +560,28 @@
                 <div class="l-detail">
                     <div class="t-l-detail">
                         <h4>Ensalada de Aguacate</h4>
-                        <p>$8</p>
+                        <p>$9.50</p>
                     </div>
                     <div class="d-l-detail">
-                        <p>Garden salad w/ avocado</p>
+                        <p>Garden salad w/ aguacate.</p>
                     </div>
                 </div>
                 <div class="r-detail">
                     <div class="t-l-detail">
-                        <h4>Sopa de Frijol</h4>
-                        <p>$6.50</p>
+                        <h4>Taco Salad</h4>
+                        <p></p>
                     </div>
                     <div class="d-l-detail">
-                        <p>Black bean soup w/ onions and cheese</p>
+                        <p>Tortilla bowl w/ lettuce. tomato, cucumber, red and green peppers, red onions, black beans and shredded cheese w/ choice of.</p>
+                        <br>
+                        <div>
+                            <p>Chicken or beef</p>
+                            <p>$12.50</p>
+                        </div>
+                        <div>
+                            <p>Grilled Shrimp</p>
+                            <p>$16.00</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -296,9 +625,9 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div> 
 
-        <!-- <div id="sides" class="sides">
+        <div id="sides" class="sides">
             <div class="banner-m">
                 <div class="title">
                     <h2>SIDES</h2>
@@ -308,7 +637,7 @@
                 </div>
             </div>
             <div class="desc">
-                <p>Two baskets of chips included. Extra charge for more</p>
+                <p>Two baskets of chips per table included. After two baskets of chips, table will be charged.</p>
             </div>
             <div class="detail">
                 <div class="l-detail">
@@ -323,7 +652,7 @@
                 <div class="r-detail">
                     <div class="t-l-detail">
                         <h4>Guacamole</h4>
-                        <p>$2.50</p>
+                        <p>$1.50</p>
                     </div>
                     <div class="d-l-detail">
                         <p></p>
@@ -333,7 +662,7 @@
             <div class="detail">
                 <div class="l-detail">
                     <div class="t-l-detail">
-                        <h4>Salsa</h4>
+                        <h4>Extra Salsa</h4>
                         <p>$2.50</p>
                     </div>
                     <div class="d-l-detail">
@@ -343,7 +672,7 @@
                 <div class="r-detail">
                     <div class="t-l-detail">
                         <h4>Cheese</h4>
-                        <p>$0.75</p>
+                        <p>$1.00</p>
                     </div>
                     <div class="d-l-detail">
                         <p></p>
@@ -370,7 +699,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div> 
 
         <div id="sizzling" class="sizzling">
             <div class="banner-m">
@@ -421,7 +750,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
 
         <div id="vegetarianos" class="vegetarianos">
             <div class="banner-m">
@@ -665,7 +994,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
 
         <div id="combinaciones" class="combinaciones">
             <div class="banner-m">
@@ -719,7 +1048,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
 
         <div id="specials" class="specials">
             <div class="banner-m">
@@ -820,7 +1149,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
 
         <div id="seafood" class="seafood">
             <div class="banner-m">
@@ -911,9 +1240,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
 
-        <!-- <div id="burgers" class="burgers">
+        <div id="burgers" class="burgers">
             <div class="banner-m">
                 <div class="title">
                     <h2>Burgers</h2>
@@ -926,23 +1255,23 @@
                 <div class="l-detail">
                     <div class="t-l-detail">
                         <h4>Mexican Style Burger</h4>
-                        <p>$9.50</p>
+                        <p>$10.50</p>
                     </div>
                     <div class="d-l-detail">
-                        <p>Onions, jalapeños, tomato, and Mexican cheese</p>
+                        <p>Onions, jalapeños, tomato and Mexican cheese.</p>
                     </div>
                 </div>
                 <div class="r-detail">
                     <div class="t-l-detail">
                         <h4>Cheeseburger with Fries</h4>
-                        <p>$7.50</p>
+                        <p>$9.50</p>
                     </div>
                     <div class="d-l-detail">
-                        <p></p>
+                        <p>With fries.</p>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div> 
 
         <div id="kids" class="kids">
             <div class="banner-m">
@@ -1013,7 +1342,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
 
         <div id="desserts" class="desserts">
             <div class="banner-m">
@@ -1104,178 +1433,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div id="beverages" class="beverages">
-            <div class="banner-m">
-                <div class="title">
-                    <h2>Beverages</h2>
-                </div>
-                <div class="menu-banner">
-                    <section class="banner-menu"></section>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Regular coffee/Mexican style coffee</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Abuelita Hot Chocolate</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Hot Tea</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Iced Tea</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Lemonade</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Orange Juice</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Apple Juice</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Cranberry Juice</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Horchata</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Tamarindo</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Jamaica</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Jarritos</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Lime, Fruit punch, Tamarindo, Mandarin, Grapefruit</p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Mexican Coca Cola</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Fanta</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Sidral</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Sangria soda</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div> 
     </div>
     <!-- End content -->
     
