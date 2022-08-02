@@ -143,3 +143,24 @@ footer{
     font-size: 0.6em;
     margin-left: 10px;
 }
+
+
+@media (max-width: 1366px){
+    /* Footer */
+
+    .f-contact h4, .f-booking h4, .f-social h4{
+        font-size: 1.2em;
+    }
+
+    .f-info p, .f-contact p, .f-contact a, .f-contact span, .f-booking p, .f-booking a{
+        font-size: 0.75em;
+    }
+
+    .copy span{
+        font-size: 0.85em;
+    }
+
+    .f-social a span{
+        font-size: 0.5em;
+    }
+}

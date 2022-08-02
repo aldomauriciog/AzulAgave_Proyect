@@ -149,8 +149,12 @@ main:hover{
 }
 
 .rapid-access > ul > li > table tr td a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
-    padding: 20px 10px 20px 10px;
+    height: 55px;
+    padding: 0px 10px 0px 10px;
     background-color: gray;
     margin: 2px 0px;
     font-weight: 200;
@@ -381,8 +385,28 @@ main:hover{
 
 /* Laptop */
 @media (max-width: 1366px){
+    .t-l-detail h4{
+        font-size: 1.1em;
+    }
+
+    .d-l-detail > p{
+        font-size: 0.9em;
+    }
+
+    .d-l-detail > p{
+        font-size: 0.9em;
+    }
+
+    .t-l-detail p {
+        font-size: 1em;
+    }
 
     /* Banner */
+
+    .banner-slider{
+        height: 60vh;
+    }
+
     .title h1{
         font-size: 2.8em;
     }
@@ -412,21 +436,6 @@ main:hover{
         top: 45px;
     }
 
-    /* Footer */
-
-    .f-contact h4, .f-booking h4, .f-social h4{
-        font-size: 1.2em;
-    }
-
-    .f-info p, .f-contact p, .f-contact a, .f-contact span, .f-booking p, .f-booking a{
-        font-size: 0.75em;
-    }
-
-    .copy span{
-        font-size: 0.85em;
-    }
-}
-
 /* Desktop / 2 */
 @media (max-width: 960px){
 
@@ -440,4 +449,5 @@ main:hover{
 /* Phone */
 @media (max-width: 390px){
 
+}
 }

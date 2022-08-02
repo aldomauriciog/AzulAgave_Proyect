@@ -536,6 +536,20 @@ footer{
         margin: 6.5% auto 0 auto;
     }
 
+    .img-presentation .image{
+        height: 500px;
+    }
+
+    .img-presentation .image img{
+        height: 500px;
+    }
+
+    .f-social a i{
+        font-size: 0.8em;
+    }
+
+    /* Footer */
+
     .f-contact h4, .f-booking h4, .f-social h4{
         font-size: 1.2em;
     }
@@ -546,6 +560,10 @@ footer{
 
     .copy span{
         font-size: 0.85em;
+    }
+
+    .f-social a span{
+        font-size: 0.5em;
     }
 }
 
