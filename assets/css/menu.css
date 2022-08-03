@@ -447,7 +447,9 @@ main:hover{
 }
 
 /* Phone */
-@media (max-width: 390px){
-
+@media (max-width: 414px){
+    .rapid-access ul{
+        display: none;
+    }
 }
 }

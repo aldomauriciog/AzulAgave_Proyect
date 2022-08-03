@@ -9,21 +9,7 @@ window.onload = ()=>{
     SelectInfo.innerHTML = title;
 }
 
-
 $(document).ready(function(){
-    $('a[href^="#"]').click(function(){
-        var destiny = $(this.hash);
-        var altura = destiny.offset().top;
-        var oficial = altura - 250;
-        if(destiny.length == 0){
-            destiny = $('a[name="' + this.hash.substr(1) + '"]');
-        }
-        if(destiny.length == 0){
-            destiny = $('html');
-        }
-        $('html, body').animate({ scrollTop: oficial }, 500);
-        return false;
-    });
 
     $(Icon).click(function(){
         if (CloseIcono.className == "open") {
@@ -41,4 +27,3 @@ $(document).ready(function(){
         
     });
 });
-

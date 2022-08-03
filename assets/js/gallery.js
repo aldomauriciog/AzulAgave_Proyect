@@ -6,9 +6,17 @@ closeIcon = document.querySelector(".icon"),
 currentImg = document.querySelector(".current-img"),
 totalImg = document.querySelector(".total-img"),
 shadow = document.querySelector(".shadow"),
-details = document.querySelector(".details");
+details = document.querySelector(".details"),
+titleInfo = document.querySelector(".title"),
+SelectInfo = document.querySelector(".nav-stick .logo a"),
+Icon = document.querySelector(".nav-stick .open i"),
+CloseIcono = document.querySelector(".nav-stick .open"),
+NavBody = document.querySelector(".nav-body");
 
 window.onload = ()=>{
+    let title = titleInfo.querySelector("h1").innerHTML;
+    SelectInfo.innerHTML = title;
+
     for (let i = 0; i < gallery.length; i++) {
         totalImg.textContent = gallery.length;
         let  newIndex = i
@@ -76,3 +84,21 @@ window.onload = ()=>{
         }
     }
 }
+
+$(document).ready(function(){
+    $(Icon).click(function(){
+        if (CloseIcono.className == "open") {
+            NavBody.style.transform = "translateX(0%)";
+            CloseIcono.classList.remove("open");
+            CloseIcono.classList.add("close");
+        }
+        
+
+        else if(CloseIcono.className == "close"){
+            NavBody.style.transform = "translateX(100%)";
+            CloseIcono.classList.add("open");
+            CloseIcono.classList.remove("close");
+        }
+        
+    });
+});

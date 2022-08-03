@@ -1,3 +1,9 @@
+const titleInfo = document.querySelector(".title"),
+SelectInfo = document.querySelector(".nav-stick .logo a"),
+Icon = document.querySelector(".nav-stick .open i"),
+CloseIcono = document.querySelector(".nav-stick .open"),
+NavBody = document.querySelector(".nav-body");
+
 let slider = document.querySelector(".slider-banner")
 let sliderIndividual = document.querySelectorAll(".banner-slider")
 let contador = 1;
@@ -40,5 +46,25 @@ $(document).ready(function(){
         }
         $('html, body').animate({ scrollTop: oficial }, 500);
         return false;
+    });
+
+    $(Icon).click(function(){
+        if (CloseIcono.className == "open") {
+            NavBody.style.transform = "translateX(0%)";
+            NavBody.style.display = "block"
+
+            CloseIcono.classList.remove("open");
+            CloseIcono.classList.add("close");
+        }
+        
+
+        else if(CloseIcono.className == "close"){
+            NavBody.style.transform = "translateX(100%)";
+            NavBody.style.display = "none"
+
+            CloseIcono.classList.add("open");
+            CloseIcono.classList.remove("close");
+        }
+        
     });
 });
