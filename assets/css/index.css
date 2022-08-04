@@ -11,7 +11,7 @@ body{
     font-family: 'Poppins', sans-serif;
     position: relative;
     min-height: 100vh;
-    padding-bottom: 300px;
+    padding-bottom: 700px;
 }
 
 /* Header */
@@ -576,12 +576,28 @@ footer{
 }
 
 /* Desktop / 2 */
-@media (max-width: 960px){
+@media only screen and (max-width: 960px){
 
+    /* Nav */
+    nav .logo img{
+        width: 120px;
+    }
+
+    nav .links a{
+        margin: 0 20px;
+        font-size: 0.8em;
+    }
+
+    nav .social i{
+        margin: 0 8px;
+        font-size: 1.2em;
+    }
 }
 
 /* Tablet */
 @media only screen and (max-width: 820px){
+
+    /* Nav */
     nav{
         display: none;
     }
@@ -675,12 +691,9 @@ footer{
 }
 
 /* Phone */
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 450px){
 
-    body{
-        width: 100%;
-    }
-
+    /* Nav */
     nav{
         display: none;
     }
@@ -688,11 +701,9 @@ footer{
         display: none;
     }
 
-
-
     .nav-phone{
         display: block;
-        position: fixed;
+        position: relative;
         width: 100%;
         z-index: 1002;
     }
@@ -705,6 +716,8 @@ footer{
         padding: 0px 15px;
         height: 71px;
         border-bottom: 1px solid white;
+        position: fixed;
+        width: 100%;
     }
 
     .nav-stick .logo{
@@ -735,11 +748,14 @@ footer{
 
     .nav-body{
         bottom: 0;
-        height: calc(100% - 60px);
-        display: none;
+        height: 100vh;
+        display: block;
         background-color: rgb(78, 103, 112);
         transform: translateX(100%);
-        transition: all 2s ease;
+        transition: all 0.5s ease-out;
+        position: fixed;
+        width: 100%;
+        top: 71px;
         }
 
     .nav-body .links{
@@ -785,5 +801,56 @@ footer{
         color: white;
         font-size: 2em;
         padding: 15px;
+    }
+
+    /* Footer */
+
+    .footer{
+        display: block;
+        height: 677px;
+        /* margin: 0 auto; */
+    }
+
+    .f-contact h4, .f-booking h4, .f-social h4{
+        width: 27%;
+        margin: 0 auto 15px auto;
+        font-size: 1.1em;
+    }
+
+    .f-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .f-contact{
+        width: 100%;
+    }
+
+    .f-booking{
+        width: 100%;
+    }
+
+    .f-social{
+        width: 100%;
+    }
+
+    .f-social > div{
+        margin-top: 15px;
+    }
+
+    .copy{
+        padding-top: 0;
+        font-size: 0.7em;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .nav-body .links a li{
+        padding: 15px 0px 15px 0px;
     }
 }

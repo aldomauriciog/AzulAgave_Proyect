@@ -56,7 +56,7 @@
             <a href="../about/"><li>ABOUT</li></a>
             <a href="../index.html#contact-link"><li>CONTACT</li></a>
             <a href="../booking/"><li>BOOKING</li></a>
-            <div class="icon">
+            <div class="icono">
                 <img src="../assets/img/LOGO VERSION BLANCO.png" alt="">
             </div>
         </div>

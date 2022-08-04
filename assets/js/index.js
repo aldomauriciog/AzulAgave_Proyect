@@ -51,7 +51,6 @@ $(document).ready(function(){
     $(Icon).click(function(){
         if (CloseIcono.className == "open") {
             NavBody.style.transform = "translateX(0%)";
-            NavBody.style.display = "block"
 
             CloseIcono.classList.remove("open");
             CloseIcono.classList.add("close");
@@ -60,7 +59,6 @@ $(document).ready(function(){
 
         else if(CloseIcono.className == "close"){
             NavBody.style.transform = "translateX(100%)";
-            NavBody.style.display = "none"
 
             CloseIcono.classList.add("open");
             CloseIcono.classList.remove("close");
