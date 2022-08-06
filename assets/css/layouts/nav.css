@@ -214,7 +214,7 @@ nav .social i{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: rgb(78, 103, 112);
+        background-color: rgb(23, 62, 65);
         padding: 0px 15px;
         height: 71px;
         border-bottom: 1px solid white;
@@ -252,7 +252,7 @@ nav .social i{
         bottom: 0;
         height: calc(100% - 60px);
         display: block;
-        background-color: rgb(78, 103, 112);
+        background-color: rgb(40, 108, 111);
         transform: translateX(100%);
         transition: all 0.5s ease-out;
         position: fixed;

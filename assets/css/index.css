@@ -692,6 +692,9 @@ footer{
 
 /* Phone */
 @media only screen and (max-width: 450px){
+    body{
+        padding-bottom: 764px;
+    }
 
     /* Nav */
     nav{
@@ -712,7 +715,7 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: rgb(78, 103, 112);
+        background-color: rgb(23, 62, 65);
         padding: 0px 15px;
         height: 71px;
         border-bottom: 1px solid white;
@@ -750,7 +753,7 @@ footer{
         bottom: 0;
         height: 100vh;
         display: block;
-        background-color: rgb(78, 103, 112);
+        background-color: rgb(40, 108, 111);
         transform: translateX(100%);
         transition: all 0.5s ease-out;
         position: fixed;
@@ -803,11 +806,44 @@ footer{
         padding: 15px;
     }
 
+    /* Banner */
+
+    .banner .title{
+        margin: 70% auto 0 auto;
+    }
+
+    .title h1{
+        font-size: 2.3em;
+        letter-spacing: 2px;
+        line-height: 1.2;
+    }
+
+    /* Body */
+
+    .presentation{
+        width: 80%;
+    }
+
+    .wrap .img-presentation{
+        display: block;
+    }
+
+    .img-presentation .image{
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    /* Contact */
+
+    .t-contact{
+        margin: 15% auto 0 auto;
+    }
+
     /* Footer */
 
     .footer{
         display: block;
-        height: 677px;
+        height: 675px;
         /* margin: 0 auto; */
     }
 
@@ -846,6 +882,12 @@ footer{
         font-size: 0.7em;
         display: flex;
         align-items: center;
+    }
+
+    footer .footer hr{
+        visibility: visible;
+        width: 90%;
+        margin: 0 auto;
     }
 }
 

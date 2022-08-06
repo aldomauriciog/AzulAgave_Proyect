@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="../assets/css/layouts/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
+
 <body>
     <header>
         <?php require('../assets/layouts/nav.php') ?>
@@ -25,6 +27,31 @@
     </header>
     <!-- Content -->
     <main>
+        <div class="rp-phone">
+            <a href="#">QUICK ACCESS</a>
+        </div>
+        <div class="rp-pop-up">
+            <div>
+                <span class="icon fa-solid fa-circle-xmark"></span>
+                <ul>
+                    <li><a href="#beverages" class="btn">Beverages</a></li>
+                    <li><a href="#salad" class="btn">Salads</a></li>
+                    <li><a href="#burgers" class="btn">Burgers</a></li>
+                    <li><a href="#sides" class="btn">Sides</a></li>
+                    <li><a href="#vegetarianos" class="btn">Vegetarian Special</a></li>
+                    <li><a href="#combinaciones" class="btn">Special combinations</a></li>
+                    <li><a href="#soups" class="btn">Soups</a></li>
+                    <li><a href="#entrees" class="btn">Main Dishes</a></li>
+                    <li><a href="#specials" class="btn">Specials</a></li>
+                    <li><a href="#kids" class="btn">Kids Menu</a></li>
+                    <li><a href="#seafood" class="btn">Seafood Specials</a></li>
+                    <li><a href="#desserts" class="btn">Desserts</a></li>
+                    <li><a href="#appetizers" class="btn">Appetizers</a></li>
+                    <li><a href="#sizzling" class="btn">Sizzling Fajitas</a></li>
+                </ul>
+            </div>
+
+        </div>
         <div class="rapid-access">
             <!-- <a href="#" class="b-contact">QUICK ACCESS</a> -->
             <ul>
@@ -45,7 +72,7 @@
                             <td><a href="#kids" class="btn"><span>Kids Menu</span></a></td>
                             <td><a href="#seafood" class="btn"><span>Seafood Specials</span></a></td>
                             <td><a href="#desserts" class="btn"><span>Desserts</span></a></td>
-                            <td><a href="#appetizers" class="btn"><span>Appetizers</span></a></td>                        
+                            <td><a href="#appetizers" class="btn"><span>Appetizers</span></a></td>
                             <td><a href="#sizzling" class="btn"><span>Sizzling Fajitas</span></a></td>
                         </tr>
                     </table>
@@ -53,6 +80,7 @@
             </ul>
         </div>
     </main>
+
     <br>
     <div class="menu">
         <div id="beverages" class="beverages">
@@ -563,7 +591,7 @@
                         <p>$12.50</p>
                     </div>
                     <div class="d-l-detail">
-                        <p>Your choice  of: beef or chicken</p>
+                        <p>Your choice of: beef or chicken</p>
                         <p>Tortilla chips topped w/ refried beans, cheese, jalapeños and sour cream.</p>
                     </div>
                 </div>
@@ -575,7 +603,7 @@
                         <p>$12.50</p>
                     </div>
                     <div class="d-l-detail">
-                        <p>Your choice  of: chicken, beef or chorizo</p>
+                        <p>Your choice of: chicken, beef or chorizo</p>
                         <p>Tortilla chips topped w/ cheese, sour cream, diced onions and avocado.</p>
                     </div>
                 </div>
@@ -662,7 +690,7 @@
             </div>
             <div class="detail">
                 <div class="l-detail">
-                <div class="t-l-detail">
+                    <div class="t-l-detail">
                         <h4>Choise of shrimp or fish</h4>
                         <p>$1.00</p>
                     </div>
@@ -680,7 +708,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div id="soups" class="soups">
             <div class="banner-m">
@@ -711,7 +739,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div id="salad" class="salad">
             <div class="banner-m">
@@ -795,7 +823,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div id="sides" class="sides">
             <div class="banner-m">
@@ -869,7 +897,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div id="sizzling" class="sizzling">
             <div class="banner-m">
@@ -920,7 +948,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div id="vegetarianos" class="vegetarianos">
             <div class="banner-m">
@@ -1164,7 +1192,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div id="combinaciones" class="combinaciones">
             <div class="banner-m">
@@ -1218,7 +1246,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div id="specials" class="specials">
             <div class="banner-m">
@@ -1323,7 +1351,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div id="seafood" class="seafood">
             <div class="banner-m">
@@ -1414,7 +1442,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div id="burgers" class="burgers">
             <div class="banner-m">
@@ -1445,7 +1473,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div id="kids" class="kids">
             <div class="banner-m">
@@ -1516,7 +1544,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div id="desserts" class="desserts">
             <div class="banner-m">
@@ -1607,13 +1635,14 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </div>
     <!-- End content -->
-    
+
     <?php require('../assets/layouts/footer.php') ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="../assets/js/menu.js"></script>
 </body>
+
 </html>

@@ -96,7 +96,7 @@ $(document).ready(function(){
         }
         
 
-        else if(CloseIcono.className == "close"){
+        else if(CIcono.className == "close"){
             NavBody.style.transform = "translateX(100%)";
             CIcono.classList.add("open");
             CIcono.classList.remove("close");
