@@ -527,7 +527,7 @@ footer{
 
 
 /* Laptop */
-@media (max-width: 1366px){
+@media only screen and (max-width: 1366px){
 
     .title h1{
         font-size: 2.8em;

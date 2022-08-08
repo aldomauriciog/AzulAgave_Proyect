@@ -18,6 +18,11 @@ $(RapidAccess).click(function(){
 
 $(closePopup).click(function(){
     popup.style.visibility = "hidden";
+    
+});
+
+$('.btn1').click(function(){
+    popup.style.visibility = "hidden";
 });
 
 $(document).ready(function(){

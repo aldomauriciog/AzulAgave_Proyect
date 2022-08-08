@@ -382,17 +382,17 @@ main:hover{
     background-color: rgb(240, 238, 238);
 }
 
-/* .rp-pop-up{
+.rp-pop-up{
     display: none;
 }
 
 .rp-phone{
     display: none;
-} */
+}
 
 
 /* Laptop */
-@media (max-width: 1366px){
+@media only screen and (max-width: 1366px){
     .t-l-detail h4{
         font-size: 1.1em;
     }
@@ -444,38 +444,41 @@ main:hover{
         top: 45px;
     }
 
-    /* .rp-pop-up{
+    .rp-pop-up{
         display: none;
     }
     
     .rp-phone{
         display: none;
-    } */
+    }
 
 /* Desktop / 2 */
-@media (max-width: 960px){
-    /* .rp-pop-up{
+}
+
+/* Desktop / 2 */
+@media only screen and (max-width: 960px){
+    .rp-pop-up{
         display: none;
     }
     
     .rp-phone{
         display: none;
-    } */
+    }
 }
 
 /* Tablet */
-@media (max-width: 768px){
-    /* .rp-pop-up{
+@media only screen and (max-width: 820px){
+    .rp-pop-up{
         display: none;
     }
     
     .rp-phone{
         display: none;
-    } */
+    }
 }
 
 /* Phone */
-@media (max-width: 450px){
+@media only screen and (max-width: 450px){
 
     body{
         padding-bottom: 690px;
@@ -557,6 +560,7 @@ main:hover{
     }
     
     .rp-pop-up{
+        display: block;
         position: fixed;
         visibility: hidden;
         background-color: rgb(40, 108, 111);
@@ -565,6 +569,7 @@ main:hover{
         top: 0;
         left: 0;
         z-index: 3000;
+        
     }
 
     .rp-pop-up > div{
@@ -588,16 +593,16 @@ main:hover{
         color: white;
     }
 
-    .rp-pop-up > div ul li{
-        background-color: rgb(23, 62, 65);
+    .rp-pop-up > div ul a{
+        color: white;
         text-align: center;
-        padding: 12px;
-        margin: 7px;
+        text-decoration: none;
     }
 
-    .rp-pop-up > div ul li a{
-        color: white;
-        text-decoration: none;
+    .rp-pop-up > div ul a li{
+        padding: 11px;
+        margin: 7px;
+        background-color: rgb(23, 62, 65);
     }
 
     .rp-phone{
@@ -619,4 +624,7 @@ main:hover{
     }
     
 }
+
+@media only screen and (max-width: 375px){
+
 }

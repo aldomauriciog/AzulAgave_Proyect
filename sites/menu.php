@@ -34,20 +34,20 @@
             <div>
                 <span class="icon fa-solid fa-circle-xmark"></span>
                 <ul>
-                    <li><a href="#beverages" class="btn">Beverages</a></li>
-                    <li><a href="#salad" class="btn">Salads</a></li>
-                    <li><a href="#burgers" class="btn">Burgers</a></li>
-                    <li><a href="#sides" class="btn">Sides</a></li>
-                    <li><a href="#vegetarianos" class="btn">Vegetarian Special</a></li>
-                    <li><a href="#combinaciones" class="btn">Special combinations</a></li>
-                    <li><a href="#soups" class="btn">Soups</a></li>
-                    <li><a href="#entrees" class="btn">Main Dishes</a></li>
-                    <li><a href="#specials" class="btn">Specials</a></li>
-                    <li><a href="#kids" class="btn">Kids Menu</a></li>
-                    <li><a href="#seafood" class="btn">Seafood Specials</a></li>
-                    <li><a href="#desserts" class="btn">Desserts</a></li>
-                    <li><a href="#appetizers" class="btn">Appetizers</a></li>
-                    <li><a href="#sizzling" class="btn">Sizzling Fajitas</a></li>
+                    <a href="#beverages" class="btn1"><li>Beverages</li></a>
+                    <a href="#salad" class="btn1"><li>Salads</li></a>
+                    <a href="#burgers" class="btn1"><li>Burgers</li></a>
+                    <a href="#sides" class="btn1"><li>Sides</li></a>
+                    <a href="#vegetarianos" class="btn1"><li>Vegetarian Special</li></a>
+                    <a href="#combinaciones" class="btn1"><li>Special combinations</li></a>
+                    <a href="#soups" class="btn1"><li>Soups</li></a>
+                    <a href="#entrees" class="btn1"><li>Main Dishes</li></a>
+                    <a href="#specials" class="btn1"><li>Specials</li></a>
+                    <a href="#kids" class="btn1"><li>Kids Menu</li></a>
+                    <a href="#seafood" class="btn1"><li>Seafood Specials</li></a>
+                    <a href="#desserts" class="btn1"><li>Desserts</li></a>
+                    <a href="#appetizers" class="btn1"><li>Appetizers</li></a>
+                    <a href="#sizzling" class="btn1"><li>Sizzling Fajitas</li></a>
                 </ul>
             </div>
 
@@ -566,181 +566,6 @@
             </div>
         </div>
 
-        <div id="appetizers" class="appetizers">
-            <div class="banner-m">
-                <div class="title">
-                    <h2>Appetizers</h2>
-                </div>
-                <div class="menu-banner">
-                    <section class="banner-menu"></section>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Guacamole</h4>
-                        <p>$10.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Avocado, cilantro, tomato, onions & lime juice.</p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Nachos</h4>
-                        <p>$12.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Your choice of: beef or chicken</p>
-                        <p>Tortilla chips topped w/ refried beans, cheese, jalapeños and sour cream.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Chilaquiles</h4>
-                        <p>$12.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Your choice of: chicken, beef or chorizo</p>
-                        <p>Tortilla chips topped w/ cheese, sour cream, diced onions and avocado.</p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Queso con Chorizo</h4>
-                        <p>$11.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Melted cheese w/ Mexican Sausage.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Quesadilla</h4>
-                        <p>$9.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Flour tortilla stuffed w/ choice of: chicken, beef, chorizo or vegetables.</p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Botana Agave</h4>
-                        <p>$13.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Mini Flautas, mini quesadillas, mini chimichangas, mini nachos w/ sour cream and guacamole.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Coctel De Camarones</h4>
-                        <p>$14.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Shrimp cocktail sauce , pico de gallo, diced avocado and crackers on the side.</p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Ceviche de Camarones</h4>
-                        <p>$14.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Shrimp and crab meat marinated w/ lime juice, tomatoes, onion.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Salsa & Chips</h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <div>
-                            <div>
-                                <p>Pequeña/Small</p>
-                                <p>$6.00</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <p>Grande/Large</p>
-                                <p>$12.00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Tradicional Tacos</h4>
-                        <p>$3.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Choice of: chicken, steak, carnitas al pastor or chorizo.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Choise of shrimp or fish</h4>
-                        <p>$1.00</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Extra.</p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4></h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="soups" class="soups">
-            <div class="banner-m">
-                <div class="title">
-                    <h2>SOUPS</h2>
-                </div>
-                <div class="menu-banner">
-                    <section class="banner-menu"></section>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Sopa De Pollo</h4>
-                        <p>$8.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Chicken and rice soup w/ veggies.</p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Sopa de Frijol</h4>
-                        <p>$8.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Black bean soup w/ onions and cheese.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div id="salad" class="salad">
             <div class="banner-m">
                 <div class="title">
@@ -825,6 +650,37 @@
             </div>
         </div>
 
+        <div id="burgers" class="burgers">
+            <div class="banner-m">
+                <div class="title">
+                    <h2>Burgers</h2>
+                </div>
+                <div class="menu-banner">
+                    <section class="banner-menu"></section>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Mexican Style Burger</h4>
+                        <p>$10.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Onions, jalapeños, tomato and Mexican cheese.</p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Cheeseburger with Fries</h4>
+                        <p>$9.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>With fries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div id="sides" class="sides">
             <div class="banner-m">
                 <div class="title">
@@ -899,57 +755,6 @@
             </div>
         </div>
 
-        <div id="sizzling" class="sizzling">
-            <div class="banner-m">
-                <div class="title">
-                    <h2>Sizzling Fajitas</h2>
-                </div>
-                <div class="menu-banner">
-                    <section class="banner-menu"></section>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Fajitas De Pollo (Chicken)</h4>
-                        <p>$18.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Fajitas De Res (Beef)</h4>
-                        <p>$18.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Fajitas De Camarones (Shrimp)</h4>
-                        <p>$19.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Fajitas Mixtas (Chicken, Beef & Shrimp)</h4>
-                        <p>$22.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div id="vegetarianos" class="vegetarianos">
             <div class="banner-m">
                 <div class="title">
@@ -1016,6 +821,91 @@
                     </div>
                     <div class="d-l-detail">
                         <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="combinaciones" class="combinaciones">
+            <div class="banner-m">
+                <div class="title">
+                    <h2>Special Combinations</h2>
+                </div>
+                <div class="menu-banner">
+                    <section class="banner-menu"></section>
+                </div>
+            </div>
+            <div class="desc">
+                <p>All dishes are served with rice and beans</p>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Taco, Burrito & Chimichanga</h4>
+                        <p>$13.95</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Ground beef taco, burrito, shredded beef, chicken and chimichanga.</p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Taco, Burrito & Enchilada</h4>
+                        <p>$13.95</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Ground beef taco, ground beef burrito, shredded beef and red enchilada.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Taco, Chile Relleno & Enchilada</h4>
+                        <p>$13.95</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Chicken taco, ground beef stuffed in poblano peppers, shredded beef and enchilada.</p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="soups" class="soups">
+            <div class="banner-m">
+                <div class="title">
+                    <h2>SOUPS</h2>
+                </div>
+                <div class="menu-banner">
+                    <section class="banner-menu"></section>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Sopa De Pollo</h4>
+                        <p>$8.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Chicken and rice soup w/ veggies.</p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Sopa de Frijol</h4>
+                        <p>$8.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Black bean soup w/ onions and cheese.</p>
                     </div>
                 </div>
             </div>
@@ -1194,60 +1084,6 @@
             </div>
         </div>
 
-        <div id="combinaciones" class="combinaciones">
-            <div class="banner-m">
-                <div class="title">
-                    <h2>Special Combinations</h2>
-                </div>
-                <div class="menu-banner">
-                    <section class="banner-menu"></section>
-                </div>
-            </div>
-            <div class="desc">
-                <p>All dishes are served with rice and beans</p>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Taco, Burrito & Chimichanga</h4>
-                        <p>$13.95</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Ground beef taco, burrito, shredded beef, chicken and chimichanga.</p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Taco, Burrito & Enchilada</h4>
-                        <p>$13.95</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Ground beef taco, ground beef burrito, shredded beef and red enchilada.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Taco, Chile Relleno & Enchilada</h4>
-                        <p>$13.95</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Chicken taco, ground beef stuffed in poblano peppers, shredded beef and enchilada.</p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4></h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div id="specials" class="specials">
             <div class="banner-m">
                 <div class="title">
@@ -1353,6 +1189,77 @@
             </div>
         </div>
 
+        <div id="kids" class="kids">
+            <div class="banner-m">
+                <div class="title">
+                    <h2>Kid Menu</h2>
+                </div>
+                <div class="menu-banner">
+                    <section class="banner-menu"></section>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Cheese Quesadilla</h4>
+                        <p>$6.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Flour tortilla stuffed w/ chess, chicken or beef.</p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Hard Taco</h4>
+                        <p>$7.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Folded crispy tortilla stuffed w/ chicken or beef.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Chicken Fingers & French Fries</h4>
+                        <p>$7.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Hamburger & French Fries</h4>
+                        <p>$6.95</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Add cheese for $1.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Personal Pizza</h4>
+                        <p>$10.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Add pepperoni for $1.00</p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div id="seafood" class="seafood">
             <div class="banner-m">
                 <div class="title">
@@ -1430,108 +1337,6 @@
                     </div>
                     <div class="d-l-detail">
                         <p>Shrimp, red and green peppers, onions, mushrooms and melted cheese.</p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4></h4>
-                        <p></p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="burgers" class="burgers">
-            <div class="banner-m">
-                <div class="title">
-                    <h2>Burgers</h2>
-                </div>
-                <div class="menu-banner">
-                    <section class="banner-menu"></section>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Mexican Style Burger</h4>
-                        <p>$10.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Onions, jalapeños, tomato and Mexican cheese.</p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Cheeseburger with Fries</h4>
-                        <p>$9.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>With fries.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="kids" class="kids">
-            <div class="banner-m">
-                <div class="title">
-                    <h2>Kid Menu</h2>
-                </div>
-                <div class="menu-banner">
-                    <section class="banner-menu"></section>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Cheese Quesadilla</h4>
-                        <p>$6.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Flour tortilla stuffed w/ chess, chicken or beef.</p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Hard Taco</h4>
-                        <p>$7.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Folded crispy tortilla stuffed w/ chicken or beef.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Chicken Fingers & French Fries</h4>
-                        <p>$7.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p></p>
-                    </div>
-                </div>
-                <div class="r-detail">
-                    <div class="t-l-detail">
-                        <h4>Hamburger & French Fries</h4>
-                        <p>$6.95</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Add cheese for $1.00</p>
-                    </div>
-                </div>
-            </div>
-            <div class="detail">
-                <div class="l-detail">
-                    <div class="t-l-detail">
-                        <h4>Personal Pizza</h4>
-                        <p>$10.50</p>
-                    </div>
-                    <div class="d-l-detail">
-                        <p>Add pepperoni for $1.00</p>
                     </div>
                 </div>
                 <div class="r-detail">
@@ -1629,6 +1434,201 @@
                     <div class="t-l-detail">
                         <h4>Churros</h4>
                         <p>$5.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="appetizers" class="appetizers">
+            <div class="banner-m">
+                <div class="title">
+                    <h2>Appetizers</h2>
+                </div>
+                <div class="menu-banner">
+                    <section class="banner-menu"></section>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Guacamole</h4>
+                        <p>$10.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Avocado, cilantro, tomato, onions & lime juice.</p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Nachos</h4>
+                        <p>$12.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Your choice of: beef or chicken</p>
+                        <p>Tortilla chips topped w/ refried beans, cheese, jalapeños and sour cream.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Chilaquiles</h4>
+                        <p>$12.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Your choice of: chicken, beef or chorizo</p>
+                        <p>Tortilla chips topped w/ cheese, sour cream, diced onions and avocado.</p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Queso con Chorizo</h4>
+                        <p>$11.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Melted cheese w/ Mexican Sausage.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Quesadilla</h4>
+                        <p>$9.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Flour tortilla stuffed w/ choice of: chicken, beef, chorizo or vegetables.</p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Botana Agave</h4>
+                        <p>$13.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Mini Flautas, mini quesadillas, mini chimichangas, mini nachos w/ sour cream and guacamole.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Coctel De Camarones</h4>
+                        <p>$14.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Shrimp cocktail sauce , pico de gallo, diced avocado and crackers on the side.</p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Ceviche de Camarones</h4>
+                        <p>$14.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Shrimp and crab meat marinated w/ lime juice, tomatoes, onion.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Salsa & Chips</h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <div>
+                            <div>
+                                <p>Pequeña/Small</p>
+                                <p>$6.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Grande/Large</p>
+                                <p>$12.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Tradicional Tacos</h4>
+                        <p>$3.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Choice of: chicken, steak, carnitas al pastor or chorizo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Choise of shrimp or fish</h4>
+                        <p>$1.00</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p>Extra.</p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="sizzling" class="sizzling">
+            <div class="banner-m">
+                <div class="title">
+                    <h2>Sizzling Fajitas</h2>
+                </div>
+                <div class="menu-banner">
+                    <section class="banner-menu"></section>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Fajitas De Pollo (Chicken)</h4>
+                        <p>$18.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Fajitas De Res (Beef)</h4>
+                        <p>$18.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="l-detail">
+                    <div class="t-l-detail">
+                        <h4>Fajitas De Camarones (Shrimp)</h4>
+                        <p>$19.50</p>
+                    </div>
+                    <div class="d-l-detail">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="r-detail">
+                    <div class="t-l-detail">
+                        <h4>Fajitas Mixtas (Chicken, Beef & Shrimp)</h4>
+                        <p>$22.50</p>
                     </div>
                     <div class="d-l-detail">
                         <p></p>
