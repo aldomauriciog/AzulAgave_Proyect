@@ -32,5 +32,3 @@ $mailer->msgHTML($body);
 $mailer->AltBody = strip_tags($body);
 $mailer->CharSet = 'UTF-8';
 $rta = $mailer->send( );
-
-var_dump($rta);

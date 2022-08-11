@@ -26,13 +26,13 @@
     <main>
         <div class="wrapper">
             <div class="gallery">
-                <div class="image"><span><img src="../assets/img/gallery/img1.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img2.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img3.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img4.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img5.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img6.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img7.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img1.jpg" alt="Chicken Salad"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img2.jpg" alt="Taco Chicken Salad"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img3.jpg" alt="Churros whit Ice Cream"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img4.jpg" alt="Chicken Fajita"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img5.jpg" alt="Bistec Payasito"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img6.jpg" alt="Camarones al ajo"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img7.jpg" alt="Bistec los Agaves"></span></div>
             </div>
         </div>
         <div class="preview-box">
@@ -44,7 +44,6 @@
                     <i class="fa-solid fa-circle-chevron-right"></i>
                 </div>
                 <img src="" alt="">
-                <p></p>
             </div> 
         </div>
         <div class="details">
@@ -53,6 +52,7 @@
                     Imagen <p class="current-img"></p>
                     de <p class="total-img"></p>
                 </span>
+                <span class="name">Chicken Salad</span>
                 <span class="icon fa-solid fa-circle-xmark"></span>
             </div>
         </div>

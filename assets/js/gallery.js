@@ -1,12 +1,12 @@
 const gallery = document.querySelectorAll(".gallery .image"),
 previewBox = document.querySelector(".preview-box"),
 previewImg = previewBox.querySelector("img"),
-previewInfo = previewBox.querySelector("p"),
 closeIcon = document.querySelector(".icon"),
 currentImg = document.querySelector(".current-img"),
 totalImg = document.querySelector(".total-img"),
 shadow = document.querySelector(".shadow"),
 details = document.querySelector(".details"),
+previewInfo = details.querySelector(".name"),
 titleInfo = document.querySelector(".title"),
 SelectInfo = document.querySelector(".nav-stick .logo a"),
 Icon = document.querySelector(".nav-stick .open i"),
@@ -27,9 +27,9 @@ window.onload = ()=>{
             function preview(){
                 currentImg.textContent = newIndex + 1;
                 let selectImgUrl = gallery[newIndex].querySelector("img").src;
-                // let selectImgInfo = gallery[newIndex].querySelector("p").innerHTML;
+                let selectImgInfo = gallery[newIndex].querySelector("img").alt;
                 previewImg.src = selectImgUrl;
-                // previewInfo.innerHTML = selectImgInfo;
+                previewInfo.innerHTML = selectImgInfo;
                 console.log(selectImgUrl);
                 // console.log(selectImgInfo);
             }

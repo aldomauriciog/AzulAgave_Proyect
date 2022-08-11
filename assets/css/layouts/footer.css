@@ -111,9 +111,9 @@ footer{
 .f-social h4{
     font-size: 1.3em;
     padding-bottom: 10px;
-    border-bottom: 0.1px solid #ccc;
+    border-bottom: 0.1px solid white;
     width: 45%;
-    margin: 0 auto;
+    margin: 0px auto 26px auto;
 }
 
 .f-social > div{

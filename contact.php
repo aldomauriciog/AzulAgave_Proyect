@@ -93,7 +93,7 @@
     <main>
         <div class="info">
             <div class="sub">
-                <h2>CONTACT US!</h2>
+                <h2>Contact us!</h2>
             </div>
             <hr>
             <!-- <div>
@@ -151,6 +151,16 @@
             </form>
         </div>
     </main>
+
+    <section class="ubi">
+        <div class="presentation">
+            <!-- <h2>LOCATION</h2>
+            <br><br><hr style="width: 20%; margin: 0 auto; height: 3px; background-color: cadetblue;"><br><br> -->
+        </div>
+        <div class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.7066155958114!2d-74.03855828425498!3d41.445587200347504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd2d5c069e1731%3A0xac357d15ffb5f46f!2s2576%20Rte%209W%2C%20Cornwall%2C%20NY%2012518%2C%20EE.%20UU.!5e0!3m2!1ses!2spe!4v1657674264173!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
 
     <footer>
         <div class="footer">

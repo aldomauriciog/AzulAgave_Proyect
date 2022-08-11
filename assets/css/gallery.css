@@ -138,7 +138,7 @@ main{
 .details{
     display: none;
     width: 100%;
-    height: 80px;
+    height: 105px;
     position: fixed;
     top: 0;
     left: 0;
@@ -152,7 +152,7 @@ main{
      display: flex;
      justify-content: space-between;
      align-items: center;
-     padding: 12px 32px;
+     padding: 20px 32px 12px 32px;
 }
 
 
@@ -160,6 +160,10 @@ main{
     color: rgba(255, 255, 255, 0.7);
     cursor: pointer;
     font-size: 40px;
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: right;
+    height: 100%;
 }
 
 .details .display .icon:hover{
@@ -171,6 +175,19 @@ main{
     font-size: 18px;
     font-weight: 400;
     color: #fff;
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+.details .display .name{
+    color: white;
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    height: 100%;
+    align-items: flex-end;
 }
 
 .details .display .title p{
