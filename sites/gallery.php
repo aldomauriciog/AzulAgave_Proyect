@@ -33,64 +33,6 @@
                 <div class="image"><span><img src="../assets/img/gallery/img5.jpg" alt=""></span></div>
                 <div class="image"><span><img src="../assets/img/gallery/img6.jpg" alt=""></span></div>
                 <div class="image"><span><img src="../assets/img/gallery/img7.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img8.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img9.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img10.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img11.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img12.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img13.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img14.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img15.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img16.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img17.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img18.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img19.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img20.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img21.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img22.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img23.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img24.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img25.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img26.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img27.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img28.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img29.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img30.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img31.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img32.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img33.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img34.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img35.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img36.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img37.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img38.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img39.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img40.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img41.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img42.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img43.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img44.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img45.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img46.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img47.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img48.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img49.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img50.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img51.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img52.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img53.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img54.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img55.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img56.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img57.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img58.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img59.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img60.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img61.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img62.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img63.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img64.jpg" alt=""></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img65.jpg" alt=""></span></div>
             </div>
         </div>
         <div class="preview-box">

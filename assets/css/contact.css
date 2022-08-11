@@ -207,7 +207,7 @@ div hr{
     outline: none;
 }
 
-.contact form div{
+.contact form  div{
     margin-top: 20px;
     display: flex;
     align-items: center;

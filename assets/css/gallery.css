@@ -72,7 +72,7 @@ header{
 
 main{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     min-height: 100vh;
     padding: 10px;
@@ -116,8 +116,7 @@ main{
 
 .preview-box{
     position: fixed;
-    max-width: 550px;
-    width: 80%;
+    width: 79%;
     max-height: 80vh;
     top: 50%;
     left: 50%;
@@ -192,6 +191,7 @@ main{
 .preview-box .img-box{
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .img-box .slide{
@@ -232,7 +232,7 @@ main{
 }
 
 .preview-box .img-box img{
-    width: 100%;
+    width: auto;
     border-radius: 0 0 3px 3px;
     height: 72vh;
 }
