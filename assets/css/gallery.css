@@ -251,6 +251,12 @@ main{
 /* Laptop */
 @media only screen and (max-width: 1366px){
 
+    /* Banner */
+
+    .banner-slider{
+        height: 60vh;
+    }
+    
     .title h1{
         font-size: 2.8em;
     }

@@ -525,10 +525,18 @@ footer{
     display: none;
 }
 
+footer .footer hr{
+    visibility: hidden;
+}
+
 
 /* Laptop */
 @media only screen and (max-width: 1366px){
 
+    .banner-slider{
+        height: 60vh;
+    }
+    
     .title h1{
         font-size: 2.8em;
     }
@@ -573,6 +581,10 @@ footer{
     .f-social a span{
         font-size: 0.5em;
     }
+
+    footer .footer hr{
+        visibility: hidden;
+    }
 }
 
 /* Desktop / 2 */
@@ -591,6 +603,10 @@ footer{
     nav .social i{
         margin: 0 8px;
         font-size: 1.2em;
+    }
+
+    footer .footer hr{
+        visibility: hidden;
     }
 }
 
@@ -687,6 +703,10 @@ footer{
 
     .nav-ipad-bot .links a li{
         list-style: none;
+    }
+
+    footer .footer hr{
+        visibility: hidden;
     }
 }
 

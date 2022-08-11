@@ -7,7 +7,7 @@
         <a href="../menu/"><li>MENU</li></a>
         <a href="../gallery/"><li>GALLERY</li></a>
         <a href="../about/"><li>ABOUT</li></a>
-        <a href="../contact/"><li>CONTACT</li></a>
+        <a href="../contact.php"><li>CONTACT</li></a>
         <a href="../booking/"><li>BOOKING</li></a>
     </div>
     <div class="social">
@@ -32,7 +32,7 @@
             <a href="../menu/"><li>MENU</li></a>
             <a href="../gallery/"><li>GALLERY</li></a>
             <a href="../about/"><li>ABOUT</li></a>
-            <a href="../contact/"><li>CONTACT</li></a>
+            <a href="../contact.php"><li>CONTACT</li></a>
             <a href="../booking/"><li>BOOKING</li></a>
         </div>
     </div>
@@ -54,7 +54,7 @@
             <a href="../menu/"><li>MENU</li></a>
             <a href="../gallery/"><li>GALLERY</li></a>
             <a href="../about/"><li>ABOUT</li></a>
-            <a href="../contact/"><li>CONTACT</li></a>
+            <a href="../contact.php"><li>CONTACT</li></a>
             <a href="../booking/"><li>BOOKING</li></a>
             <div class="icono">
                 <img src="../assets/img/LOGO VERSION BLANCO.png" alt="">
