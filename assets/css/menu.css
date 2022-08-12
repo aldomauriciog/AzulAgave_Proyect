@@ -43,7 +43,7 @@ header{
     width: 100%;
     height: 55vh;
     flex-shrink: 0;
-    background-image: url('../img/contact.jfif');
+    background-image: url('../img/main/contact.jfif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -240,7 +240,7 @@ main:hover{
     width: 100%;
     height: 20vh;
     flex-shrink: 0;
-    background-image: url('../img/soups.jpg');
+    background-image: url('../img/menu/soups.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -412,7 +412,7 @@ main:hover{
     /* Banner */
 
     .banner-slider{
-        height: 60vh;
+        height: 65vh;
     }
 
     .title h1{
@@ -464,6 +464,32 @@ main:hover{
     .rp-phone{
         display: none;
     }
+
+    /* Quick Access */
+
+    .rapid-access > ul li a{
+        padding: 18px;
+    }
+
+    .rapid-access > ul > li > table tr td a{
+        font-size: 0.7em;
+        height: 50px;
+    }
+
+    /* Menu */
+
+    .banner-m .title{
+        font-size: 0.75em;
+        top: 35px;
+    }
+
+    .detail .l-detail{
+        width: 33%;
+    }
+
+    .d-l-detail p{
+        font-size: 0.9em;
+    }
 }
 
 /* Tablet */
@@ -474,6 +500,49 @@ main:hover{
     
     .rp-phone{
         display: none;
+    }
+
+    /* Banner */
+
+    .banner .title{
+        margin: 20% auto 0 auto;
+    }
+
+    .title h1{
+        font-size: 2.2em;
+    }
+
+    .title p{
+        margin-top: 20px;
+        font-size: 0.9em;
+    }
+
+    .banner-slider{
+        height: 70vh;
+    }
+
+    .d-l-detail p{
+        font-size: 0.8em;
+    }
+
+    .banner-m .title{
+        top: 28px;
+    }
+
+    .title h2{
+        font-size: 2.4em;
+    }
+
+    .t-l-detail h4{
+        font-size: 1em;
+    }
+
+    .d-l-detail > div > .des p{
+        font-size: 0.65em;
+    }
+
+    .desc p{
+        font-size: 0.9em;
     }
 }
 

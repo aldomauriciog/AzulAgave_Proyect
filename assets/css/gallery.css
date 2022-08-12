@@ -43,7 +43,7 @@ header{
     width: 100%;
     height: 55vh;
     flex-shrink: 0;
-    background-image: url('../img/contact.jfif');
+    background-image: url('../img/main/contact.jfif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -188,6 +188,7 @@ main{
     font-weight: bold;
     height: 100%;
     align-items: flex-end;
+    text-align: center;
 }
 
 .details .display .title p{
@@ -271,11 +272,37 @@ main{
     /* Banner */
 
     .banner-slider{
-        height: 60vh;
+        height: 65vh;
     }
     
     .title h1{
         font-size: 2.8em;
+    }
+    
+    /* Gallery */
+
+    .details .display{
+        padding: 20px 25px 12px 25px;
+    }
+
+    .details .display .title{
+        font-size: 16px;
+    }
+
+    .details .display .title p.current-img, .details .display .title p.total-img{
+        font-size: 16px;
+    }
+
+    .details .display .name{
+        font-size: 2em;
+    }
+
+    .details .display .icon{
+        font-size: 35px;
+    }
+
+    .preview-box .img-box img{
+        height: 65vh;
     }
 
     .t-contact p{
@@ -310,6 +337,45 @@ main{
     .gallery .image{
         width: calc(100% / 2);
     }
+
+    /* Banner */
+
+    .banner .title{
+        margin: 20% auto 0 auto;
+    }
+
+    .title h1{
+        font-size: 2.2em;
+    }
+
+    .title p{
+        margin-top: 20px;
+        font-size: 0.9em;
+    }
+
+    .banner-slider{
+        height: 70vh;
+    }
+
+    .details .display .name{
+        font-size: 1.8em;
+    }
+
+    .details .display{
+        padding: 20px 20px 12px 20px;
+    }
+
+    .details .display .title, .details .display .title p.current-img, .details .display .title p.total-img {
+        font-size: 15px;
+    }
+
+    .img-box .slide{
+        font-size: 28px;
+    }
+
+    .details .display .icon{
+        font-size: 33px;
+    }
 }
 
 /* Phone */
@@ -327,6 +393,78 @@ main{
     .banner-slider{
         background-attachment: initial;
     }
+
+    /* Gallery */
+
+    .details{
+        width: 100%;
+        height: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: black;
+        z-index: 2002;
+    }
+
+    .details .display{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 6px 12px 6px;
+    }
+
+    .details .display .title{
+        display: none;
+    }
+
+    .details .display .name{
+        color: white;
+        width: 88%;
+        display: flex;
+        justify-content: center;
+        font-size: 1.7em;
+        font-weight: bold;
+        height: 100%;
+        align-items: flex-end;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    .details .display .icon{
+        color: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        font-size: 35px;
+        width: 12%;
+        display: flex;
+        justify-content: right;
+        height: 100%;
+    }
+
+    .preview-box{
+        width: 80%;
+    }
+
+    .preview-box .img-box img{
+        width: 100%;
+        border-radius: 0 0 3px 3px;
+        height: auto;
+    }
+
+    .img-box .slide.prev{
+        left: -15%;
+    }
+
+    .img-box .slide.next{
+        right: -15%;
+    }
+
+    .img-box .slide{
+        font-size: 25px;
+    }
+
+
 }
 
 @media only screen and (max-width: 375px){

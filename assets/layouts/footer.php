@@ -1,7 +1,7 @@
 <footer>
     <div class="footer">
         <div class="f-info">
-            <img src="../assets/img/LOGO VERSION BLANCO.png" alt="">
+            <img src="../assets/img/main/LOGO VERSION BLANCO.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, minima deserunt odit nobis adipisci quod.</p>
         </div><hr>
         <div class="f-contact">

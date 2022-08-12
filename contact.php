@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/layouts/nav.css">
     <link rel="stylesheet" href="assets/css/layouts/footer.css">
+    <link rel="stylesheet" href="assets/css/layouts/scroll-top.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <a href="index.html"><img src="assets/img/LOGO VERSION BLANCO.png" alt=""></a>
+                <a href="index.html"><img src="assets/img/main/LOGO VERSION BLANCO.png" alt=""></a>
             </div>
             <div class="links">
                 <a href="index.html"><li>HOME</li></a>
@@ -38,7 +39,7 @@
             </div>
             <div class="nav-ipad-bot">
                 <div class="logo">
-                    <a href="index.html"><img src="assets/img/LOGO VERSION BLANCO.png" alt=""></a>
+                    <a href="index.html"><img src="assets/img/main/LOGO VERSION BLANCO.png" alt=""></a>
                 </div>
                 <div class="links">
                     <a href="index.html"><li>HOME</li></a>
@@ -69,7 +70,7 @@
                     <a href="index.html#contact-link"><li>CONTACT</li></a>
                     <a href="booking/"><li>BOOKING</li></a>
                     <div class="icon">
-                        <img src="assets/img/LOGO VERSION BLANCO.png" alt="">
+                        <img src="assets/img/main/LOGO VERSION BLANCO.png" alt="">
                     </div>
                 </div>
                 <div class="social">
@@ -96,9 +97,6 @@
                 <h2>Contact us!</h2>
             </div>
             <hr>
-            <!-- <div>
-                <img src="assets/img/LOGO VERSION NEGRO.png" alt="LOGO">
-            </div> -->
             <div class="desc">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores at, doloribus ea dignissimos dolorem, voluptates ipsum sunt nihil animi ipsa nobis, temporibus iure excepturi!</p>
                 <p>Thank you very much</p><br>
@@ -133,7 +131,7 @@
                 </div>
                 <div>
                     <p>Subject:</p>
-                    <select name="subject" id="">
+                    <select name="subject">
                         <option>Comment</option>
                         <option>Sugerency</option>
                         <option>Reclaimed</option>
@@ -154,8 +152,6 @@
 
     <section class="ubi">
         <div class="presentation">
-            <!-- <h2>LOCATION</h2>
-            <br><br><hr style="width: 20%; margin: 0 auto; height: 3px; background-color: cadetblue;"><br><br> -->
         </div>
         <div class="location">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.7066155958114!2d-74.03855828425498!3d41.445587200347504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd2d5c069e1731%3A0xac357d15ffb5f46f!2s2576%20Rte%209W%2C%20Cornwall%2C%20NY%2012518%2C%20EE.%20UU.!5e0!3m2!1ses!2spe!4v1657674264173!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -165,7 +161,7 @@
     <footer>
         <div class="footer">
             <div class="f-info">
-                <img src="assets/img/LOGO VERSION BLANCO.png" alt="">
+                <img src="assets/img/main/LOGO VERSION BLANCO.png" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, minima deserunt odit nobis adipisci quod.</p>
             </div><hr>
             <div class="f-contact">
@@ -195,7 +191,12 @@
         </div>        
     </footer>
 
+    <a href="#" class="scroll-top" title="Ir arriba">
+        <i class="fa fa-angle-up"></i>
+    </a>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="assets/js/contact.js"></script>
+    <script src="assets/js/layouts/scroll-top.js"></script>
 </body>
 </html>

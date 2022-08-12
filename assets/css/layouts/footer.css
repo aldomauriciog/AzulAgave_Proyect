@@ -9,7 +9,6 @@ footer{
 .footer{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     background-color: rgb(40, 108, 111);
     color: white;
     height: 230px;
@@ -206,6 +205,45 @@ footer .footer hr{
     footer .footer hr{
         visibility: hidden;
     }
+
+    .footer{
+        font-size: 0.8em;
+        height: 175px;
+    }
+
+    .f-info{
+        padding: 25px 10px 25px 10px;
+    }
+
+    .f-info img{
+        width: 85px;
+    }
+
+    .f-info p, .f-contact p, .f-contact a, .f-contact span, .f-booking p, .f-booking a{
+        font-size: 0.65em;
+    }
+
+    .f-contact, .f-booking, .f-social{
+        padding: 20px 10px 20px 10px;
+    }
+
+    .f-contact h4, .f-booking h4, .f-social h4{
+        font-size: 1em;
+        margin: 0px auto 22px auto;
+    }
+
+    .f-social a i{
+        font-size: 0.7em;
+    }
+
+    .copy{
+        height: 40px;
+        padding-top: 10px;
+    }
+
+    .copy span{
+        font-size: 0.7em;
+    }
 }
 
 @media only screen and (max-width: 450px){
@@ -227,6 +265,7 @@ footer .footer hr{
         align-items: center;
         width: 70%;
         margin: 0 auto;
+        padding: 30px 10px 25px 10px;
     }
 
     .f-contact{
@@ -250,12 +289,22 @@ footer .footer hr{
         font-size: 0.7em;
         display: flex;
         align-items: center;
+        justify-content: center;
+        height: 45px;
+    }
+
+    .copy span{
+        font-size: 0.8em;
     }
 
     footer .footer hr{
-        visibility: visible;
+        visibility: hidden;
         width: 90%;
         margin: 0 auto;
+    }
+
+    .f-info p, .f-contact p, .f-contact a, .f-contact span, .f-booking p, .f-booking a{
+        font-size: 0.75em;
     }
 }
 

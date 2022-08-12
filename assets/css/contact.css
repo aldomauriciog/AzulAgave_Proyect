@@ -114,7 +114,7 @@ nav .social i{
     width: 100%;
     height: 55vh;
     flex-shrink: 0;
-    background-image: url('../img/contact.jfif');
+    background-image: url('../img/main/contact.jfif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -251,6 +251,10 @@ div .sub{
     border: none;
     background-color: #EEEEEE;
     padding-left: 10px;
+}
+
+.contact form > div:nth-child(3){
+    display: flex;
 }
 
 .contact form > div:nth-child(3) select{
@@ -460,7 +464,7 @@ footer .footer hr{
     /* Banner */
 
     .banner-slider{
-        height: 60vh;
+        height: 65vh;
     }
     
     .title h1{
@@ -607,8 +611,35 @@ footer .footer hr{
         list-style: none;
     }
 
+    /* Banner */
+
+    .banner .title{
+        margin: 20% auto 0 auto;
+    }
+
+    .title h1{
+        font-size: 2.2em;
+    }
+
+    .title p{
+        margin-top: 20px;
+        font-size: 0.9em;
+    }
+
+    .banner-slider{
+        height: 70vh;
+    }
+
     footer .footer hr{
         visibility: hidden;
+    }
+
+    .info .desc p{
+        font-size: 0.9em;
+    }
+
+    .location{
+        width: 90%;
     }
 }
 
@@ -731,13 +762,40 @@ footer .footer hr{
     /* Banner */
 
     .banner .title{
-        margin: 70% auto 0 auto;
+        margin: 55% auto 0 auto;
     }
 
     .title h1{
         font-size: 2.3em;
         letter-spacing: 2px;
         line-height: 1.2;
+    }
+
+    /* Main */
+
+    main{
+        display: flex;
+        width: 90%;
+        margin: 50px auto;
+        flex-direction: column;
+    }
+
+    .info{
+        display: block;
+        width: 100%;
+        order: 2;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    .contact{
+        width: 100%;
+        order: 1;
+        margin-left: 0;
+    }
+
+    .location{
+        width: 90%;
     }
 
     /* Footer */

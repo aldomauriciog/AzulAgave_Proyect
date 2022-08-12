@@ -1,6 +1,6 @@
 <nav>
     <div class="logo">
-        <a href="../index.html"><img src="../assets/img/LOGO VERSION BLANCO.png" alt=""></a>
+        <a href="../index.html"><img src="../assets/img/main/LOGO VERSION BLANCO.png" alt=""></a>
     </div>
     <div class="links">
         <a href="../index.html"><li>HOME</li></a>
@@ -25,7 +25,7 @@
     </div>
     <div class="nav-ipad-bot">
         <div class="logo">
-            <a href="../index.html"><img src="../assets/img/LOGO VERSION BLANCO.png" alt=""></a>
+            <a href="../index.html"><img src="../assets/img/main/LOGO VERSION BLANCO.png" alt=""></a>
         </div>
         <div class="links">
             <a href="../index.html"><li>HOME</li></a>
@@ -57,7 +57,7 @@
             <a href="../contact.php"><li>CONTACT</li></a>
             <a href="../booking/"><li>BOOKING</li></a>
             <div class="icono">
-                <img src="../assets/img/LOGO VERSION BLANCO.png" alt="">
+                <img src="../assets/img/main/LOGO VERSION BLANCO.png" alt="">
             </div>
         </div>
         <div class="social">

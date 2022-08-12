@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../assets/css/gallery.css">
     <link rel="stylesheet" href="../assets/css/layouts/nav.css">
     <link rel="stylesheet" href="../assets/css/layouts/footer.css">
+    <link rel="stylesheet" href="../assets/css/layouts/scroll-top.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
@@ -28,7 +29,7 @@
             <div class="gallery">
                 <div class="image"><span><img src="../assets/img/gallery/img1.jpg" alt="Chicken Salad"></span></div>
                 <div class="image"><span><img src="../assets/img/gallery/img2.jpg" alt="Taco Chicken Salad"></span></div>
-                <div class="image"><span><img src="../assets/img/gallery/img3.jpg" alt="Churros whit Ice Cream"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img3.jpg" alt="Churros with Ice Cream"></span></div>
                 <div class="image"><span><img src="../assets/img/gallery/img4.jpg" alt="Chicken Fajita"></span></div>
                 <div class="image"><span><img src="../assets/img/gallery/img5.jpg" alt="Bistec Payasito"></span></div>
                 <div class="image"><span><img src="../assets/img/gallery/img6.jpg" alt="Camarones al ajo"></span></div>
@@ -61,8 +62,10 @@
     </main>
     
     <?php require('../assets/layouts/footer.php') ?>
+    <?php require('../assets/layouts/scroll-top.php') ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="../assets/js/gallery.js"></script>
+    <script src="../assets/js/layouts/scroll-top.js"></script>
 </body>
 </html>

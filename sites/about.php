@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../assets/css/about.css">
     <link rel="stylesheet" href="../assets/css/layouts/nav.css">
     <link rel="stylesheet" href="../assets/css/layouts/footer.css">
+    <link rel="stylesheet" href="../assets/css/layouts/scroll-top.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 
@@ -29,7 +30,7 @@
     <main>
         <div>
             <div class="img">
-                <img src="../assets/img/about.jpg" alt="about">
+                <img src="../assets/img/about/about.jpg" alt="about">
             </div>
             <div class="info">
                 <h2>OUR HISTORY</h2>
@@ -53,9 +54,11 @@
     </main>
     
     <?php require('../assets/layouts/footer.php') ?>
+    <?php require('../assets/layouts/scroll-top.php') ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="../assets/js/about.js"></script>
+    <script src="../assets/js/layouts/scroll-top.js"></script>
 </body>
 
 </html>

@@ -43,7 +43,7 @@ header{
     width: 100%;
     height: 55vh;
     flex-shrink: 0;
-    background-image: url('../img/contact.jfif');
+    background-image: url('../img/main/contact.jfif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -113,6 +113,10 @@ main > div .info p{
 /* Laptop */
 @media only screen and (max-width: 1366px){
 
+    .banner-slider{
+        height: 65vh;
+    }
+
     .title h1{
         font-size: 2.8em;
     }
@@ -139,12 +143,44 @@ main > div .info p{
 
 /* Desktop / 2 */
 @media only screen and (max-width: 960px){
+    main > div .info h2{
+        font-size: 2em;
+    }
 
+    main > div .info p{
+        font-size: 0.7em;
+    }
 }
 
 /* Tablet */
 @media only screen and (max-width: 820px){
+    
+    /* Banner */
 
+    .banner .title{
+        margin: 20% auto 0 auto;
+    }
+
+    .title h1{
+        font-size: 2.2em;
+    }
+
+    .title p{
+        margin-top: 20px;
+        font-size: 0.9em;
+    }
+
+    .banner-slider{
+        height: 70vh;
+    }
+
+    main > div .info h2{
+        font-size: 1.8em;
+    }
+
+    main > div .info p{
+        font-size: 0.65em;
+    }
 }
 
 /* Phone */

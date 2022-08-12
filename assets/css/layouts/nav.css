@@ -137,17 +137,18 @@ nav .social i{
     }
 
     .nav-ipad-top .social{
-        width: 50%;
+        width: 100%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
     }
 
     .nav-ipad-top .social a{
         text-decoration: none;
         color: white;
-        font-size: 0.8em;
-        padding: 10px 0;
+        font-size: 0.7em;
+        padding: 8px 0;
+        margin: 0 20px;
     }
 
     .nav-ipad-top .social a i{
@@ -166,11 +167,12 @@ nav .social i{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 85px;
+        width: auto;
+        height: 80px;
     }
 
     .nav-ipad-bot .logo a img{
-        width: 85px;
+        width: 80px;
     }
 
     .nav-ipad-bot .links{
@@ -182,7 +184,7 @@ nav .social i{
     .nav-ipad-bot .links a{
         text-decoration: none;
         color: white;
-        font-size: 0.8em;
+        font-size: 0.7em;
         padding: 0px 12px;
         font-weight: bold;
     }
@@ -200,8 +202,6 @@ nav .social i{
     .nav-ipad{
         display: none;
     }
-
-
 
     .nav-phone{
         display: block;
@@ -224,9 +224,9 @@ nav .social i{
 
     .nav-stick .logo{
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
-        width: 100px;
+        width: 120px;
     }
 
     .nav-stick .logo a{
@@ -275,7 +275,7 @@ nav .social i{
     }
 
     .nav-body .links a li{
-        padding: 25px 0px 25px 0px;
+        padding: 22px 0px 22px 0px;
         border-bottom: 1px solid white;
     }
 
@@ -288,7 +288,7 @@ nav .social i{
     }
 
     .nav-body .links .icono img{
-        width: 170px;
+        width: 160px;
     }
 
     .nav-body .social{

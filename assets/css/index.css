@@ -338,7 +338,7 @@ section{
     width: 100%;
     height: 750px;
     flex-shrink: 0;
-    background-image: url('../img/contact.jfif');
+    background-image: url('../img/main/contact.jfif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -483,7 +483,7 @@ footer{
 .f-social h4{
     font-size: 1.3em;
     padding-bottom: 10px;
-    border-bottom: 0.1px solid #ccc;
+    border-bottom: 0.1px solid white;
     width: 40%;
     margin: 0 auto;
 }
@@ -534,7 +534,11 @@ footer .footer hr{
 @media only screen and (max-width: 1366px){
 
     .banner-slider{
-        height: 60vh;
+        height: 100vh;
+    }
+
+    .banner .title{
+        margin: 20% auto 0 auto;
     }
     
     .title h1{
@@ -598,6 +602,57 @@ footer .footer hr{
     nav .links a{
         margin: 0 20px;
         font-size: 0.8em;
+    }
+
+    /* Banner */
+
+    .title h1 {
+        font-size: 2em;
+    }
+
+    .title p{
+        font-size: 1em;
+    }
+
+    .b-contact{
+        width: 150px;
+        padding: 15px 10px;
+    }
+
+    /* Presentacion */
+
+    .presentation{
+        width: 40%;
+    }
+
+    .presentation h2{
+        font-size: 1.5em;
+    }
+
+    .presentation p{
+        font-size: 0.8em;
+    }
+
+    .img-presentation .image{
+        height: 400px;
+    }
+
+    .img-presentation .image img{
+        height: 400px;
+    }
+
+    /* Contact */
+
+    .t-contact h2{
+        font-size: 1.5em;
+    }
+
+    .t-contact p{
+        font-size: 0.8em;
+    }
+
+    .contact-bg{
+        height: 650px;
     }
 
     nav .social i{
@@ -827,6 +882,10 @@ footer .footer hr{
     }
 
     /* Banner */
+
+    .banner-slider{
+        height: 100vh;
+    }
 
     .banner .title{
         margin: 70% auto 0 auto;

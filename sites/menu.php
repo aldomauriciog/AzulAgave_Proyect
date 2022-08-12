@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../assets/css/menu.css">
     <link rel="stylesheet" href="../assets/css/layouts/nav.css">
     <link rel="stylesheet" href="../assets/css/layouts/footer.css">
+    <link rel="stylesheet" href="../assets/css/layouts/scroll-top.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 
@@ -89,7 +90,7 @@
                     <h2>CHUPI HOUR PROMO</h2>
                 </div>
                 <div class="menu-banner">
-                    <section class="banner-menu" style="background-image: url('../assets/img/gallery/img31.jpg');"></section>
+                    <section class="banner-menu" style="background-image: url('../assets/img/menu/soups.jpg');"></section>
                 </div>
             </div>
             <div class="detail">
@@ -572,7 +573,7 @@
                     <h2>SALADS</h2>
                 </div>
                 <div class="menu-banner">
-                    <section class="banner-menu" style="background-image: url('../assets/img/gallery/img44.jpg');"></section>
+                    <section class="banner-menu" style="background-image: url('../assets/img/menu/soups.jpg');"></section>
                 </div>
             </div>
             <div class="detail">
@@ -1640,9 +1641,11 @@
     <!-- End content -->
 
     <?php require('../assets/layouts/footer.php') ?>
+    <?php require('../assets/layouts/scroll-top.php') ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="../assets/js/menu.js"></script>
+    <script src="../assets/js/layouts/scroll-top.js"></script>
 </body>
 
 </html>
