@@ -25,6 +25,10 @@
         </div>
     </header>
     <main>
+        <div class="subtitle">
+            <h2>FOODS</h2>
+            <hr><br>
+        </div>
         <div class="wrapper">
             <div class="gallery">
                 <div class="image"><span><img src="../assets/img/gallery/img1.jpg" alt="Chicken Salad"></span></div>
@@ -34,8 +38,60 @@
                 <div class="image"><span><img src="../assets/img/gallery/img5.jpg" alt="Bistec Payasito"></span></div>
                 <div class="image"><span><img src="../assets/img/gallery/img6.jpg" alt="Camarones al ajo"></span></div>
                 <div class="image"><span><img src="../assets/img/gallery/img7.jpg" alt="Bistec los Agaves"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img8.jpg" alt="Churros with Fried Cream"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img9.jpg" alt="Tostadas"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img10.jpg" alt="Tacos al carbón"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img11.jpg" alt="Red sniper"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img12.jpg" alt="Guacamole with chips"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img13.jpg" alt="Tacos de birria"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img14.jpg" alt="Chimichanga"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img15.jpg" alt="Burrito grande"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img16.jpg" alt="Flautas"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img17.jpg" alt="Milanesa de pollo o res"></span></div>
             </div>
         </div>
+
+        <div class="subtitle">
+            <h2>BEVERAGES</h2>
+            <hr><br>
+        </div>
+        <div class="wrapper">
+            <div class="gallery">
+                <div class="image"><span><img src="../assets/img/gallery/img36.jpg" alt="Piña Colada"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img37.jpg" alt="Aguas Frescas"></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img38.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img39.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img40.jpg" alt=""></span></div>
+            </div>
+        </div>
+
+        <div class="subtitle">
+            <h2>LOCAL - EVENTS</h2>
+            <hr><br>
+        </div>
+        <div class="wrapper">
+            <div class="gallery">
+                <div class="image"><span><img src="../assets/img/gallery/img18.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img19.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img20.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img21.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img22.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img23.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img24.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img25.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img26.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img27.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img28.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img29.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img30.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img31.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img32.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img33.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img34.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../assets/img/gallery/img35.jpg" alt=""></span></div>
+            </div>
+        </div>
+
         <div class="preview-box">
             <div class="img-box">
                 <div class="slide prev">

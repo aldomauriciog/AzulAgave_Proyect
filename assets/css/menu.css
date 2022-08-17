@@ -243,7 +243,7 @@ main:hover{
     background-image: url('../img/menu/soups.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     filter:brightness(0.5);
 }
