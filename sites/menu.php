@@ -90,7 +90,7 @@
                     <h2>CHUPI HOUR PROMO</h2>
                 </div>
                 <div class="menu-banner">
-                    <section class="banner-menu" style="background-image: url('../assets/img/menu/soups.jpg');"></section>
+                    <section class="banner-menu" style="background-image: url('../assets/img/menu/beverages.jpg');"></section>
                 </div>
             </div>
             <div class="detail">
@@ -573,7 +573,7 @@
                     <h2>SALADS</h2>
                 </div>
                 <div class="menu-banner">
-                    <section class="banner-menu" style="background-image: url('../assets/img/menu/soups.jpg');"></section>
+                    <section class="banner-menu" style="background-image: url('../assets/img/menu/salads.jpg');"></section>
                 </div>
             </div>
             <div class="detail">
@@ -762,7 +762,7 @@
                     <h2>Vegetarian Special</h2>
                 </div>
                 <div class="menu-banner">
-                    <section class="banner-menu"></section>
+                    <section class="banner-menu" style="background-image: url('../assets/img/menu/burrito.jpg');"></section>
                 </div>
             </div>
             <div class="detail">
@@ -918,7 +918,7 @@
                     <h2>Main Dishes</h2>
                 </div>
                 <div class="menu-banner">
-                    <section class="banner-menu"></section>
+                    <section class="banner-menu" style="background-image: url('../assets/img/menu/entrees.jpg');"></section>
                 </div>
             </div>
             <div class="detail">
@@ -1091,7 +1091,7 @@
                     <h2>Specials</h2>
                 </div>
                 <div class="menu-banner">
-                    <section class="banner-menu"></section>
+                    <section class="banner-menu" style="background-image: url('../assets/img/menu/especial.jpg');"></section>
                 </div>
             </div>
             <div class="detail">
@@ -1267,7 +1267,7 @@
                     <h2>Seafood Especials</h2>
                 </div>
                 <div class="menu-banner">
-                    <section class="banner-menu"></section>
+                    <section class="banner-menu" style="background-image: url('../assets/img/menu/seafood.jpg');"></section>
                 </div>
             </div>
             <div class="detail">
@@ -1358,7 +1358,7 @@
                     <h2>Desserts</h2>
                 </div>
                 <div class="menu-banner">
-                    <section class="banner-menu"></section>
+                    <section class="banner-menu" style="background-image: url('../assets/img/menu/deserts.jpg');"></section>
                 </div>
             </div>
             <div class="detail">
@@ -1449,7 +1449,7 @@
                     <h2>Appetizers</h2>
                 </div>
                 <div class="menu-banner">
-                    <section class="banner-menu"></section>
+                    <section class="banner-menu" style="background-image: url('../assets/img/menu/appetizers.jpg');"></section>
                 </div>
             </div>
             <div class="detail">
@@ -1593,7 +1593,7 @@
                     <h2>Sizzling Fajitas</h2>
                 </div>
                 <div class="menu-banner">
-                    <section class="banner-menu"></section>
+                    <section class="banner-menu" style="background-image: url('../assets/img/menu/fajitas.jpg');"></section>
                 </div>
             </div>
             <div class="detail">
