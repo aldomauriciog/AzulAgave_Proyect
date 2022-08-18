@@ -99,10 +99,12 @@ nav .social i{
     width: 100%;
     position: absolute;
     z-index: 500;
-    display:block;
+    display:flex;
     justify-content: center;
     align-items: center;
-    margin: 15% auto 0 auto
+    flex-direction: column;
+    height: 55vh;
+    padding-top: 100px;
 }
 
 .slider-banner{
@@ -463,6 +465,10 @@ footer .footer hr{
 
     /* Banner */
 
+    .banner .title{
+        height: 65vh;
+    }
+
     .banner-slider{
         height: 65vh;
     }
@@ -614,7 +620,7 @@ footer .footer hr{
     /* Banner */
 
     .banner .title{
-        margin: 20% auto 0 auto;
+        height: 50vh;
     }
 
     .title h1{
@@ -627,7 +633,7 @@ footer .footer hr{
     }
 
     .banner-slider{
-        height: 70vh;
+        height: 50vh;
     }
 
     footer .footer hr{
@@ -762,7 +768,7 @@ footer .footer hr{
     /* Banner */
 
     .banner .title{
-        margin: 55% auto 0 auto;
+        padding-top: 70px;
     }
 
     .title h1{

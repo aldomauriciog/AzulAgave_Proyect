@@ -197,6 +197,10 @@ main > div .info p{
 
     /* Banner */
 
+    .banner .title{
+        padding-top: 70px;
+    }
+
     .banner-slider{
         background-attachment: initial;
     }

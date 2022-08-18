@@ -32,12 +32,12 @@
             <p>You can make your reservation by means of a call so you can agree on a more efficient way. Call!</p>
             <div class="call">
                 <div>
-                    <p>Outdoor Seating:</p>
-                    <button><a href="tel:845-534-2006">845-534-2006</a></button>
+                    <p>Catering orders:</p>
+                    <button><a href="tel: 1-845-534-2006">1-845-534-2006</a></button>
                 </div>
                 <div>
                     <p>Pick up order:</p>
-                    <button><a href="tel:845-534-2361">845-534-2361</a></button>
+                    <button><a href="tel: 1-845-534-2006">1-845-534-2006</a></button>
                 </div>
             </div>
         </div>

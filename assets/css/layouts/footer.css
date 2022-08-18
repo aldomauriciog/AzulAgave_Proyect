@@ -246,6 +246,33 @@ footer .footer hr{
     }
 }
 
+@media only screen and (max-width: 650px){
+    .f-info, .f-booking, .f-contact, .f-social{
+        width: 24%;
+    }
+
+    .f-info p, .f-contact p, .f-contact a, .f-contact span, .f-booking p, .f-booking a{
+        font-size: 0.6em;
+    }
+
+    .f-info img {
+        width: 75px;
+    }
+
+    .f-contact h4, .f-booking h4, .f-social h4{
+        width: 60%;
+        font-size: 0.9em;
+    }
+
+    .f-social a span {
+        font-size: 0.35em;
+    }
+
+    .f-social a i {
+        font-size: 0.6em;
+    }
+}
+
 @media only screen and (max-width: 450px){
     .footer{
         display: block;

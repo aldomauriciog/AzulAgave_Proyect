@@ -78,14 +78,15 @@ main{
     justify-content: center;
     min-height: 100vh;
     padding: 10px;
-    margin-top: 60px;
+    margin: 60px auto 0 auto;
     flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .subtitle{
     margin: 15px auto;
     font-size: 1.6em;
-    width: 1200px;
     text-align: center;
     font-weight: bold;
 }
@@ -105,7 +106,6 @@ main{
 
 .wrapper{
     margin: 0 auto 50px auto;
-    width: 1200px;
 }
 
 .wrapper .gallery{
@@ -420,7 +420,7 @@ main{
     /* Banner */
 
     .banner .title{
-        margin: 55% auto 0 auto;
+        padding-top: 70px;
     }
 
     .banner-slider{

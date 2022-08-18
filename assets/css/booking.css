@@ -10,7 +10,7 @@ body{
     font-family: 'Poppins', sans-serif;
     position: relative;
     min-height: 100vh;
-    padding-bottom: 280px;
+    padding-bottom: 300px;
 }
 
 header{
@@ -28,10 +28,12 @@ header{
     width: 100%;
     position: absolute;
     z-index: 500;
-    display:block;
+    display:flex;
     justify-content: center;
     align-items: center;
-    margin: 15% auto 0 auto
+    flex-direction: column;
+    height: 55vh;
+    padding-top: 100px;
 }
 
 .slider-banner{
@@ -94,7 +96,7 @@ main{
 
 .card h2{
     font-size: 2em;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .card p{
@@ -126,12 +128,16 @@ main{
 }
 
 /* Laptop */
-@media (max-width: 1366px){
+@media only screen and (max-width: 1366px){
 
     /* Banner */
 
     .banner-slider{
         height: 60vh;
+    }
+
+    .banner .title{
+        height: 65vh;
     }
     
     .title h1{
@@ -182,7 +188,7 @@ main{
 }
 
 /* Desktop / 2 */
-@media (max-width: 975px){
+@media only screen and (max-width: 960px){
 
     .card{
         height: 300px;
@@ -208,11 +214,82 @@ main{
 }
 
 /* Tablet */
-@media (max-width: 768px){
+@media only screen and (max-width: 820px){
 
+    .banner .title{
+        height: 50vh;
+    }
+
+    .title h1{
+        font-size: 2.2em;
+    }
+
+    .title p{
+        margin-top: 20px;
+        font-size: 0.9em;
+    }
+
+    .banner-slider{
+        height: 50vh;
+    }
+
+    .card {
+        height: 300px;
+        padding: 20px 60px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .card{
+        width: 75%;
+        padding: 20px 45px;
+    }
+
+    .card p {
+        font-size: 0.7em;
+        margin: 15px 0;
+    }
+
+    .card .call div button {
+        width: 100px;
+        height: 35px;
+    }
+
+    .card .call div button a {
+        font-size: 0.8em;
+    }
 }
 
 /* Phone */
-@media (max-width: 390px){
+@media only screen and (max-width: 450px){
+
+    body{
+        padding-bottom: 700px;
+    }
+
+    /* Banner */
+
+    .banner .title{
+        padding-top: 70px;
+    }
+
+    .card {
+        height: 450px;
+        padding: 20px 60px;
+    }
+
+    .card .call {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 85%;
+        padding: 20px 45px;
+    }
+}
+
+@media only screen and (max-width: 375px){
 
 }
