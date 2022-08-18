@@ -771,6 +771,10 @@ footer .footer hr{
         line-height: 1.2;
     }
 
+    .banner-slider{
+        background-attachment: initial;
+    }
+
     /* Main */
 
     main{

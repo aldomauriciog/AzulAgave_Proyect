@@ -28,10 +28,12 @@ header{
     width: 100%;
     position: absolute;
     z-index: 500;
-    display:block;
+    display:flex;
     justify-content: center;
     align-items: center;
-    margin: 15% auto 0 auto
+    flex-direction: column;
+    height: 55vh;
+    padding-top: 100px;
 }
 
 .slider-banner{
@@ -274,6 +276,10 @@ main{
     .banner-slider{
         height: 65vh;
     }
+
+    .banner .title{
+        height: 65vh;
+    }
     
     .title h1{
         font-size: 2.8em;
@@ -340,12 +346,12 @@ main{
 
     /* Banner */
 
-    .banner .title{
-        margin: 20% auto 0 auto;
-    }
-
     .title h1{
         font-size: 2.2em;
+    }
+
+    .banner .title{
+        height: 50vh;
     }
 
     .title p{
@@ -354,7 +360,7 @@ main{
     }
 
     .banner-slider{
-        height: 70vh;
+        height: 50vh;
     }
 
     .details .display .name{

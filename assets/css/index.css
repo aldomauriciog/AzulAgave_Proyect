@@ -102,10 +102,12 @@ nav .social i{
     width: 100%;
     position: absolute;
     z-index: 500;
-    display:block;
+    display:flex;
     justify-content: center;
     align-items: center;
-    margin: 22% auto 0 auto
+    height: 100vh;
+    flex-direction: column;
+    padding-top: 100px;
 }
 
 .slider-banner{
@@ -536,10 +538,6 @@ footer .footer hr{
     .banner-slider{
         height: 100vh;
     }
-
-    .banner .title{
-        margin: 20% auto 0 auto;
-    }
     
     .title h1{
         font-size: 2.8em;
@@ -885,10 +883,6 @@ footer .footer hr{
 
     .banner-slider{
         height: 100vh;
-    }
-
-    .banner .title{
-        margin: 70% auto 0 auto;
     }
 
     .title h1{
