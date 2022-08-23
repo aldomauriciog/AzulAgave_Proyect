@@ -31,14 +31,14 @@ nav .links{
     align-items: center;
 }
 
-nav .links a:nth-child(6){
+nav .links a:nth-child(7){
     padding: 10px 15px;
     background-color: cadetblue;
     box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.39);
     margin-top: -10px;
 }
 
-nav .links a:nth-child(6):hover{
+nav .links a:nth-child(7):hover{
     color: white;
     border-bottom: 0px solid transparent;
 }
@@ -79,8 +79,14 @@ nav .social i{
     display: none;
 }
 
+@media only screen and (max-width: 1366px){
+    nav .links a{
+        margin: 0 20px;
+    }
+}
+
 /* Desktop / 2 */
-@media only screen and (max-width: 975px){
+@media only screen and (max-width: 980px){
 
     /* Nav */
     nav .logo img{
@@ -88,7 +94,7 @@ nav .social i{
     }
 
     nav .links a{
-        margin: 0 20px;
+        margin: 0 15px;
         font-size: 0.8em;
     }
 
@@ -116,14 +122,14 @@ nav .social i{
         z-index: 1001;
     }
 
-    .nav-ipad .links a:nth-child(6){
+    .nav-ipad .links a:nth-child(7){
         padding: 10px 15px;
         background-color: cadetblue;
         box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.39);
         margin-left: 7px;
     }
 
-    .nav-ipad .links a:nth-child(6):hover{
+    .nav-ipad .links a:nth-child(7):hover{
         color: white;
         border-bottom: 0px solid transparent;
     }
@@ -303,6 +309,12 @@ nav .social i{
         color: white;
         font-size: 2em;
         padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .nav-body .links a li{
+        padding: 15px 0px 15px 0px;
     }
 }
 

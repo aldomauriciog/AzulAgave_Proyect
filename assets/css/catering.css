@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 300px;
+}
+
+header{
+    height: auto;
+}
+
+/* Banner */
+
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner .title{
+    width: 100%;
+    position: absolute;
+    z-index: 500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 55vh;
+    padding-top: 100px;
+}
+
+.slider-banner{
+    width: 100%;
+    display: flex;
+}
+
+.banner-slider{
+    width: 100%;
+    height: 55vh;
+    flex-shrink: 0;
+    background-image: url('../img/main/contact.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter:brightness(0.6);
+}
+
+
+.title h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.2em;
+    font-weight: bold;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 1px 1px #ECECEC;
+}
+
+.title p{
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 1.1em;
+}

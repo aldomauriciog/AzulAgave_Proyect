@@ -5,6 +5,7 @@
     <div class="links">
         <a href="../index.html"><li>HOME</li></a>
         <a href="../menu/"><li>MENU</li></a>
+        <a href="../catering/"><li>CATERING</li></a>
         <a href="../gallery/"><li>GALLERY</li></a>
         <a href="../about/"><li>ABOUT</li></a>
         <a href="../contact.php"><li>CONTACT</li></a>
@@ -30,13 +31,13 @@
         <div class="links">
             <a href="../index.html"><li>HOME</li></a>
             <a href="../menu/"><li>MENU</li></a>
+            <a href="../catering/"><li>CATERING</li></a>
             <a href="../gallery/"><li>GALLERY</li></a>
             <a href="../about/"><li>ABOUT</li></a>
             <a href="../contact.php"><li>CONTACT</li></a>
             <a href="../booking/"><li>BOOKING</li></a>
         </div>
     </div>
-    <!-- <h1>Soy la navegación del iPad</h1> -->
 </div>
 
 <div class="nav-phone">
@@ -52,13 +53,14 @@
         <div class="links">
             <a href="../index.html"><li>HOME</li></a>
             <a href="../menu/"><li>MENU</li></a>
+            <a href="../catering/"><li>CATERING</li></a>
             <a href="../gallery/"><li>GALLERY</li></a>
             <a href="../about/"><li>ABOUT</li></a>
             <a href="../contact.php"><li>CONTACT</li></a>
             <a href="../booking/"><li>BOOKING</li></a>
-            <div class="icono">
+            <!-- <div class="icono">
                 <img src="../assets/img/main/LOGO VERSION BLANCO.png" alt="">
-            </div>
+            </div> -->
         </div>
         <div class="social">
             <a href="https://www.facebook.com/AzulAgaveCornwall/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
